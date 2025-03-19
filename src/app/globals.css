@@ -18,6 +18,7 @@
 
 
   /* gradients */
+  --button-gradient: 44.64deg, rgba(255, 255, 255, 0) 50.79%, #FFFFFF 83.49%;
   --border-gradient: 537.89% 441.7% at 50% 74.1%, rgba(58, 74, 219, 0) 0%, #3A4ADB 100%;
   --border-linear: 90deg, #0E0F11 0%, #33363E 50%, #0E0F11 100%;
 }
@@ -34,6 +35,8 @@ body {
   font-family: var(--font-manrope);
   background: var(--background);
   color: var(--foreground);
+  /* overflow-x: hidden; */
+
 }
 
 @font-face {

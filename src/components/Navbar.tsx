@@ -2,12 +2,13 @@ import React from "react";
 import LogoIcon from "./icon/LogoIcon";
 import Container from "./Container";
 import { GithubIcon, TelegramIcon, TwitterIcon } from "./icon";
+import Button from "./sections/Button";
 export const NavMenu = [
   { id: "product", label: "Product" },
-  { id: "pricing", label: "Solutions" },
-  { id: "about", label: "Features" },
-  { id: "contact", label: "Pricing" },
-  { id: "contact", label: "Resources" },
+  { id: "solutions", label: "Solutions" },
+  { id: "features", label: "Features" },
+  { id: "pricing", label: "Pricing" },
+  { id: "resources", label: "Resources" },
 ];
 
 const Navbar = () => {
@@ -45,9 +46,7 @@ const Navbar = () => {
                 <TwitterIcon />
                 <TelegramIcon />
               </div>
-              <button className="bg-palatinateBlue  px-6 py-2 rounded-full text-[14px] font-medium text-white hover:bg-royalBlue transition-colors duration-200 cursor-pointer">
-                Get Started
-              </button>
+              <Button />
             </div>
           </div>
         </div>
