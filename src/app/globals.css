@@ -2,6 +2,7 @@
 
 :root {
   --font-manrope: Manrope;
+  --font-esbuild: ESBuild;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -15,13 +16,24 @@
   --color-palatinateBlue: #3A4ADB;
   --color-royalBlue: #5361DF;
   --color-caribbeanGreen: #16E390;
+  --color-VampireBlack: #080808;
+  --color-gray: #B8B8B8;
+  --color-blackDarker: #181818;
+  --color-darkCharcoal: #303030;
+
+
 
 
   /* gradients */
   --button-gradient: 44.64deg, rgba(255, 255, 255, 0) 50.79%, #FFFFFF 83.49%;
   --border-gradient: 537.89% 441.7% at 50% 74.1%, rgba(58, 74, 219, 0) 0%, #3A4ADB 100%;
   --border-linear: 90deg, #0E0F11 0%, #33363E 50%, #0E0F11 100%;
+
+  /* animation */
+
 }
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -72,4 +84,29 @@ body {
   src: url("/fonts/Manrope/Manrope-ExtraBold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
+}
+
+@font-face {
+  font-family: "ESBuild";
+  src: url("/fonts/ESBuild/ESBuildTRIAL-Regular.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ESBuild";
+  src: url("/fonts/ESBuild/ESBuildTRIAL-Medium.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ESBuild";
+  src: url("/fonts/ESBuild/ESBuildTRIAL-Bold.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-esbuild {
+  font-family: "ESBuild", sans-serif;
 }

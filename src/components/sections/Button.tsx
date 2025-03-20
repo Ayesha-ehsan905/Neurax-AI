@@ -1,8 +1,21 @@
-const Button = () => {
+interface ButtonProps {
+  width?: string;
+  text?: string;
+}
+
+const Button: React.FC<ButtonProps> = ({
+  width = "auto",
+  text = "Get Started",
+}) => {
   return (
     <div className="rounded-full p-[1px] hover:bg-linear-(--button-gradient)">
-      <button className="relative bg-palatinateBlue px-6 py-2 rounded-full text-[14px] font-medium text-white transition-all duration-300 group">
-        <span className="relative z-10">Get Started</span>
+      <button
+        className="relative bg-palatinateBlue px-6  rounded-full  transition-all duration-300 group h-[32px] "
+        style={{ width: width }}
+      >
+        <span className="relative z-10 text-[14px] font-medium text-white ">
+          {text}
+        </span>
         {/* Glow effect that appears on hover */}
         <span className="absolute inset-0 rounded-full bg-palatinateBlue opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-300"></span>
         {/* Inner glow for more realistic effect */}
