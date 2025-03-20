@@ -1,12 +1,12 @@
 import React from "react";
-import { smartTrading } from "@/utilis/constant";
+import { SMART_TRADING } from "@/utilis/constant";
 import Button from "./sections/Button";
 import Container from "./Container";
 
 const SmartTrading = () => {
   return (
     <Container>
-      <div className="mt-[300px]">
+      <div className="mt-[300px] mx-[200px]">
         <div className="flex justify-center flex-col items-center gap-4">
           <h1 className="text-[40px] font-medium font-esbuild">
             The Future of AI-Powered Crypto Trading is Here
@@ -20,7 +20,7 @@ const SmartTrading = () => {
         </div>
         <div className="max-w-6xl mx-auto p-4 mt-[60px]">
           <div className="flex flex-col md:flex-row flex-wrap gap-4">
-            {smartTrading.map((item, index) => {
+            {SMART_TRADING.map((item, index) => {
               return (
                 <div
                   key={index}
@@ -31,7 +31,7 @@ const SmartTrading = () => {
                       {item.svg}
 
                       <div className="flex items-center gap-2 flex-row">
-                        <h3 className="text-[16px] text-white font-normal mb-1 max-w-[270px]">
+                        <h3 className="text-[16px] text-white font-normal mb-1 max-w-[270px] tracking-[4%]">
                           {item.title}
                         </h3>
                       </div>

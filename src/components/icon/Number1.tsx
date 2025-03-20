@@ -12,7 +12,7 @@ const Number1: React.FC<SVGProps<SVGSVGElement>> = () => {
       <path
         d="M15.1178 78V12.4583L0 21.3958V8.775L15.1178 0H27V78H15.1178Z"
         fill="white"
-        fill-opacity="0.04"
+        fillOpacity="0.04"
       />
     </svg>
   );

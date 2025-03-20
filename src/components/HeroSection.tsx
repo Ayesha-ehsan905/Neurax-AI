@@ -27,10 +27,10 @@ const HeroSection = () => {
           <Image
             src="/images/chat_ai.png"
             alt="hero-image"
-            width={535}
+            width={505}
             height={463}
             className="h-[463px] w-[525px]" // Tailwind ensures it stays 450px
-            style={{ height: "463px", width: "525px" }} // Ensure height in inline styles as fallback
+            // style={{ height: "463px", width: "525px !important" }} // Ensure height in inline styles as fallback
           />
         </div>
       </div>
