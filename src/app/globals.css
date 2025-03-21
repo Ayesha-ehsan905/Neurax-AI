@@ -74,6 +74,13 @@ body {
 
 @font-face {
   font-family: "Manrope";
+  src: url("/fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manrope";
   src: url("/fonts/Manrope/Manrope-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;

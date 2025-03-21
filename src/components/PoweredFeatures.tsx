@@ -6,7 +6,7 @@ const PoweredFeatures = () => {
   return (
     <Container>
       <div className="flex flex-col items-center justify-center mt-[300px] gap-4">
-        <span className="text-[50px] font-medium">Powered Features</span>
+        <span className="text-[50px] font-medium">AI-Powered Features</span>
         <span className="text-[14px] font-normal leading-[1.3] tracking-[4%]">
           Cutting-edge machine learning technology designed to transform your
           trading experience and maximize returns through intelligent automation
@@ -21,7 +21,7 @@ const PoweredFeatures = () => {
               key={index}
               className="w-[530px] bg-blackDarker text-white p-4 rounded-xl shadow-lg border border-darkCharcoal"
             >
-              <div className="flex flex-row gap-4">
+              <div className="flex flex-row gap-4 h-full">
                 <div className="flex flex-col gap-4  w-[270px]">
                   <div className="bg-[#16E3901F] rounded-[40px] w-fit">
                     <span className="text-caribbeanGreen text-[12px] font-medium px-4 py-2">

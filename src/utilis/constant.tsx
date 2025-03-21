@@ -10,6 +10,16 @@ import {
   AutomatedTradingIcon,
   RealTimeSentimentIcon,
   AIProtfolioIcon,
+  UnmatchedSpeedIcon,
+  AccuracyIcon,
+  IntelligentRiskIcon,
+  BlockchainIcon,
+  TokenIcon,
+  DiscountIcon,
+  RewardsIcon,
+  MechanismsIcon,
+  AccessIcon,
+  LiquidityIcon,
 } from "@/components/icon";
 import AdvancedRisk from "@/components/icon/AdvancedRisk ";
 
@@ -97,5 +107,66 @@ export const FEATURES = [
       "Utilizes sophisticated AI-driven asset allocation models to recommend optimal portfolio distributions and dynamically rebalance your investments.",
     tag: "NEURAX STRATEGIST",
     icon: <AIProtfolioIcon />,
+  },
+];
+
+export const ADVANTAGES = [
+  {
+    icon: <UnmatchedSpeedIcon />,
+    title: "Unmatched Speed",
+    description: "Millions of market signals processed per second",
+  },
+  {
+    icon: <AccuracyIcon />,
+    title: "Predictive Accuracy",
+    description:
+      "Our advanced algorithms anticipate market movements with remarkable precision.",
+  },
+  {
+    icon: <IntelligentRiskIcon />,
+
+    title: "Intelligent Risk Management",
+    description:
+      "Sophisticated protection mechanisms safeguard your portfolio during market volatility.",
+  },
+  {
+    icon: <BlockchainIcon />,
+
+    title: "Blockchain Transparency",
+    description:
+      "All trading operations are transparent and verifiable through blockchain technology.",
+  },
+];
+export const TOKENOMICS_DATA = [
+  {
+    icon: <TokenIcon />,
+    title: "Token Supply",
+    description: "1,000,000,000 NEUREX",
+  },
+  {
+    icon: <DiscountIcon />,
+    title: "Trading Fee Discounts",
+    description: "Receive up to 60% discount on all trading fees.",
+  },
+  {
+    icon: <RewardsIcon />,
+    title: "Staking Rewards",
+    description: "Stake your tokens to earn 30% of platform trading fees.",
+  },
+  {
+    icon: <MechanismsIcon />,
+    title: "Deflationary Mechanisms",
+    description:
+      "10% of trading fees used for token burns events reduce total supply.",
+  },
+  {
+    icon: <AccessIcon />,
+    title: "AI Strategy Access",
+    description: "Exclusive AI models for token holders.",
+  },
+  {
+    icon: <LiquidityIcon />,
+    title: "Liquidity & Market Stability",
+    description: "Ensures smooth transactions and minimal slippage.",
   },
 ];
