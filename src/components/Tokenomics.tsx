@@ -5,7 +5,9 @@ const Tokenomics = () => {
   return (
     <Container>
       <div className="flex flex-col items-center justify-center mt-[280px] gap-4">
-        <span className="text-[50px] font-medium text-center">Tokenomics</span>
+        <span className="text-[50px] font-medium text-center font-esbuild">
+          Tokenomics
+        </span>
         <span className="text-[14px] font-normal leading-[130%] tracking-[4%] text-center text-white">
           Powering AI-driven crypto trading with efficient token utility and
           sustainable growth

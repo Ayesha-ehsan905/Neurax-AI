@@ -8,16 +8,19 @@
 }
 
 @theme inline {
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-manrope: var(--font-manrope);
   --color-midnight: #121063;
   --color-lightGray: #B0B0B0;
+  --color-grayish: #909090;
+  --color-gray33: #33363E;
+  --color-gray: #B8B8B8;
   --color-palatinateBlue: #3A4ADB;
   --color-royalBlue: #5361DF;
   --color-caribbeanGreen: #16E390;
   --color-VampireBlack: #080808;
-  --color-gray: #B8B8B8;
   --color-blackDarker: #181818;
   --color-darkCharcoal: #303030;
 
@@ -53,63 +56,63 @@ body {
 
 @font-face {
   font-family: "Manrope";
-  src: url("/fonts/Manrope/Manrope-Light.ttf") format("truetype");
+  src: url("/font/Manrope/Manrope-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("/fonts/Manrope/Manrope-Regular.ttf") format("truetype");
+  src: url("/font/Manrope/Manrope-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("/fonts/Manrope/Manrope-Medium.ttf") format("truetype");
+  src: url("/font/Manrope/Manrope-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("/fonts/Manrope/Manrope-SemiBold.ttf") format("truetype");
+  src: url("/font/Manrope/Manrope-SemiBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("/fonts/Manrope/Manrope-Bold.ttf") format("truetype");
+  src: url("/font/Manrope/Manrope-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Manrope";
-  src: url("/fonts/Manrope/Manrope-ExtraBold.ttf") format("truetype");
+  src: url("/font/Manrope/Manrope-ExtraBold.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ESBuild";
-  src: url("/fonts/ESBuild/ESBuildTRIAL-Regular.otf") format("truetype");
+  src: url("/font/ESBuild/ESBuildTRIAL-Regular.otf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ESBuild";
-  src: url("/fonts/ESBuild/ESBuildTRIAL-Medium.otf") format("truetype");
+  src: url("/font/ESBuild/ESBuildTRIAL-Medium.otf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "ESBuild";
-  src: url("/fonts/ESBuild/ESBuildTRIAL-Bold.otf") format("truetype");
+  src: url("/font/ESBuild/ESBuildTRIAL-Bold.otf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }

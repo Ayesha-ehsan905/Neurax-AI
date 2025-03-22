@@ -170,3 +170,18 @@ export const TOKENOMICS_DATA = [
     description: "Ensures smooth transactions and minimal slippage.",
   },
 ];
+
+export const MENU_DATA = [
+  {
+    title: "Resources",
+    links: ["Documentation", "API Reference", "Developers", "Status Page"],
+  },
+  {
+    title: "Company",
+    links: ["About Us", "Careers", "Blog", "Press Kit"],
+  },
+  {
+    title: "Community",
+    links: ["Twitter/X", "Discord", "Telegram", "GitHub"],
+  },
+];

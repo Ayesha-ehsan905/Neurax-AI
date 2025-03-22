@@ -24,3 +24,4 @@ export { default as DiscountIcon } from "./Discount";
 export { default as MechanismsIcon } from "./Mechanism";
 export { default as AccessIcon } from "./Access";
 export { default as LiquidityIcon } from "./Liquidity";
+export { default as LogoWhite } from "./LogoWhite";

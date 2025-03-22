@@ -8,16 +8,16 @@ const HeroSection = () => {
       {/* Hero content */}
       <div className="absolute inset-x-0 pt-12 w-full px-4">
         <div className="mx-auto max-w-[800px]">
-          <h1 className="text-[56px] text-center font-medium mb-4 font-esbuild ">
+          <h1 className="text-[56px] text-center font-medium mb-4 font-esbuild text-white">
             The Future of AI-Powered Crypto Trading is Here
           </h1>
-          <p className="leading-[100%] text-center text-[14px]">
+          <p className="leading-[100%] text-center text-[14px] text-white">
             Precision Trading Assistant Driven by Advanced Machine Learning
           </p>
         </div>
         <div className="flex justify-center pt-6 gap-4">
           <Button width="160px" />
-          <button className=" px-6  rounded-full  transition-all duration-300 group h-[32px] w-[160px] bg-white hover:bg-gray hover:cursor-pointer">
+          <button className=" px-6  rounded-full  transition-all duration-300 group bg-white hover:bg-gray hover:cursor-pointer">
             <span className="text-[14px] font-medium text-VampireBlack">
               Explore Features
             </span>

@@ -6,8 +6,10 @@ const PoweredFeatures = () => {
   return (
     <Container>
       <div className="flex flex-col items-center justify-center mt-[300px] gap-4">
-        <span className="text-[50px] font-medium">AI-Powered Features</span>
-        <span className="text-[14px] font-normal leading-[1.3] tracking-[4%]">
+        <span className="text-[50px] font-medium font-esbuild text-center">
+          AI-Powered Features
+        </span>
+        <span className="text-[14px] font-normal leading-[1.3] tracking-[4%] text-center">
           Cutting-edge machine learning technology designed to transform your
           trading experience and maximize returns through intelligent automation
           and predictive insights.
