@@ -25,3 +25,5 @@ export { default as MechanismsIcon } from "./Mechanism";
 export { default as AccessIcon } from "./Access";
 export { default as LiquidityIcon } from "./Liquidity";
 export { default as LogoWhite } from "./LogoWhite";
+export { default as PlayIcon } from "./Play";
+export { default as AIInterfaceIcon } from "./AIInterface";

@@ -5,6 +5,8 @@ import TaskProgressBar from "@/components/TaskProgressBar";
 import PoweredFeatures from "@/components/PoweredFeatures";
 import AIAdvantages from "@/components/AIAdvantages";
 import Tokenomics from "@/components/Tokenomics";
+import Footer from "@/components/Footer";
+import Interface from "@/components/Interface";
 export default function Home() {
   return (
     <>
@@ -15,6 +17,8 @@ export default function Home() {
       <PoweredFeatures />
       <AIAdvantages />
       <Tokenomics />
+      <Interface />
+      <Footer />
     </>
   );
 }

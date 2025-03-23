@@ -23,7 +23,7 @@ const Navbar = () => {
           </span>
         </Container>
       </div>
-      <div className="h-[2px]  bg-linear-(--border-linear)" />
+      <div className="h-[2px]  bg-linear-(--border-linear) w-full" />
       <Container>
         <div className="mx-[80px]">
           <div className="flex justify-between items-center py-4">
