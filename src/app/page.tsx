@@ -7,6 +7,7 @@ import AIAdvantages from "@/components/AIAdvantages";
 import Tokenomics from "@/components/Tokenomics";
 import Footer from "@/components/Footer";
 import Interface from "@/components/Interface";
+import OurJournery from "@/components/OurJournery";
 export default function Home() {
   return (
     <>
@@ -17,6 +18,7 @@ export default function Home() {
       <PoweredFeatures />
       <AIAdvantages />
       <Tokenomics />
+      <OurJournery />
       <Interface />
       <Footer />
     </>

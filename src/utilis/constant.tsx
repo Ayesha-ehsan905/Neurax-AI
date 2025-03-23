@@ -20,6 +20,7 @@ import {
   MechanismsIcon,
   AccessIcon,
   LiquidityIcon,
+  ArrowIcon,
 } from "@/components/icon";
 import AdvancedRisk from "@/components/icon/AdvancedRisk ";
 
@@ -183,5 +184,68 @@ export const MENU_DATA = [
   {
     title: "Community",
     links: ["Twitter/X", "Discord", "Telegram", "GitHub"],
+  },
+];
+
+export const OUR_JOURNEY = [
+  {
+    id: 1,
+    icon: <ArrowIcon />,
+    title: "Lorem Ipsum",
+    items: [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit",
+    ],
+  },
+  {
+    id: 2,
+    icon: <ArrowIcon />,
+    title: "Lorem Ipsum",
+    items: [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit",
+    ],
+  },
+  {
+    id: 3,
+    icon: <ArrowIcon />,
+    title: "Lorem Ipsum",
+    items: [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit",
+    ],
+  },
+  {
+    id: 4,
+    icon: <ArrowIcon />,
+    title: "Lorem Ipsum",
+    items: [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit",
+    ],
+  },
+  {
+    id: 5,
+    icon: <ArrowIcon />,
+    title: "Lorem Ipsum",
+    items: [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit",
+    ],
+  },
+  {
+    id: 6,
+    icon: <ArrowIcon />,
+    title: "Lorem Ipsum",
+    items: [
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit amet",
+      "Lorem ipsum dolor sit",
+    ],
   },
 ];
