@@ -1,17 +1,18 @@
 interface ButtonProps {
   width?: string;
   text?: string;
+  className?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({
-  width = "auto",
+  width = "max-content",
   text = "Get Started",
+  className,
 }) => {
   return (
     <div className="rounded-full p-[1px] hover:bg-linear-(--button-gradient)">
       <button
-        className="relative bg-palatinateBlue px-6  rounded-full  transition-all duration-300 group h-[32px] "
-        style={{ width: width }}
+        className={`relative bg-palatinateBlue px-6 rounded-full transition-all duration-300 group h-[32px] ${width} ${className}`}
       >
         <span className="relative z-10 text-[14px] font-medium text-white ">
           {text}

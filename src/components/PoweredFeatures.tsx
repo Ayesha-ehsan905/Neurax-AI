@@ -5,7 +5,10 @@ import { FEATURES } from "@/utilis/constant";
 const PoweredFeatures = () => {
   return (
     <Container>
-      <div className="flex flex-col items-center justify-center mt-[300px] gap-4">
+      <div
+        className="flex flex-col items-center justify-center mt-[300px] gap-4"
+        id="features"
+      >
         <span className="text-[50px] font-medium font-esbuild text-center">
           AI-Powered Features
         </span>

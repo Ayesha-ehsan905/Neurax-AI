@@ -6,7 +6,7 @@ import Button from "./sections/Button";
 const AIAdvantages = () => {
   return (
     <Container>
-      <div className="mt-[280px] mx-[100px]">
+      <div className="mt-[280px] mx-[100px]" id="pricing">
         <div className="flex justify-center flex-col items-center gap-4">
           <h1 className="text-[40px] font-medium font-esbuild">
             The Ultimate AI Trading Advantage{" "}

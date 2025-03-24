@@ -165,7 +165,7 @@ const TaskProgressBar = () => {
           src="/images/ai_agent1.png"
           alt="Right Image"
           width={660}
-          height={510}
+          height={430}
           className="max-w-full sm:w-[40%] w-[80%] object-contain"
           // className="absolute left-0 top-[34px] bottom-0 w-[650] max-w-none"
         />
@@ -173,7 +173,7 @@ const TaskProgressBar = () => {
           src="/images/ai_agent.png"
           alt="Left Image"
           width={660}
-          height={500}
+          height={430}
           className="max-w-full sm:w-[40%] w-[80%] object-contain"
           // className="absolute  top-[34px] right-0 bottom-0 w-[650] max-w-none"
         />

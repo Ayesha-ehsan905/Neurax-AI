@@ -6,9 +6,9 @@ import Container from "./Container";
 const SmartTrading = () => {
   return (
     <Container>
-      <div className="mt-[300px] mx-[200px]">
+      <div className="mt-[300px] mx-[16px] lg:mx-[200px]" id="product">
         <div className="flex justify-center flex-col items-center gap-4">
-          <h1 className="text-[40px] font-medium font-esbuild">
+          <h1 className="text-[24px] font-medium  text-center font-esbuild md:text-[40px]">
             The Future of AI-Powered Crypto Trading is Here
           </h1>
           <p className="text-[16px] text-center font-normal">
@@ -18,7 +18,7 @@ const SmartTrading = () => {
             volatile crypto market.
           </p>
         </div>
-        <div className="max-w-6xl mx-auto p-4 mt-[60px]">
+        <div className="max-w-6xl mx-0 mt-[60px] md:mx-auto md:p-4 ">
           <div className="flex flex-col md:flex-row flex-wrap gap-4">
             {SMART_TRADING.map((item, index) => {
               return (

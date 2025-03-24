@@ -30,3 +30,5 @@ export { default as ArrowIcon } from "./Arrow";
 export { default as AIInterfaceIcon } from "./AIInterface";
 export { default as BulletIcon } from "./Bullet";
 export { default as CircleIcon } from "./Circle";
+export { default as CloseMenuIcon } from "./CloseMenu";
+export { default as OpenMenuIcon } from "./OpenMenu";

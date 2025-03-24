@@ -4,7 +4,10 @@ import Container from "./Container";
 const Tokenomics = () => {
   return (
     <Container>
-      <div className="flex flex-col items-center justify-center mt-[280px] gap-4">
+      <div
+        className="flex flex-col items-center justify-center mt-[280px] gap-4"
+        id="solutions"
+      >
         <span className="text-[50px] font-medium text-center font-esbuild">
           Tokenomics
         </span>

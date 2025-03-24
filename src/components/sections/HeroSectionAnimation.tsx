@@ -102,7 +102,7 @@ const HeroSectionAnimation = ({ children }: { children: React.ReactNode }) => {
   return (
     <div
       ref={containerRef}
-      className="relative w-full h-[85vh] overflow-hidden"
+      className="relative w-full h-[85vh] overflow-hidden  mt-[120px] md:mt-0"
       onMouseMove={handleMouseMove}
     >
       {dots.map((dot) => (

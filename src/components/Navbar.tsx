@@ -1,8 +1,18 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import LogoIcon from "./icon/LogoIcon";
 import Container from "./Container";
-import { GithubIcon, TelegramIcon, TwitterIcon } from "./icon";
+import {
+  GithubIcon,
+  TelegramIcon,
+  TwitterIcon,
+  OpenMenuIcon,
+  CloseMenuIcon,
+} from "./icon";
 import Button from "./sections/Button";
+import MobileNavbar from "./MobileNavbar";
+import { scrollToElement } from "@/utilis/functions";
 export const NavMenu = [
   { id: "product", label: "Product" },
   { id: "solutions", label: "Solutions" },
@@ -12,9 +22,11 @@ export const NavMenu = [
 ];
 
 const Navbar = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
   return (
     <>
-      <div className="flex justify-center items-center bg-radial-(--border-gradient) py-4 ">
+      <div className=" hidden md:flex justify-center items-center bg-radial-(--border-gradient) py-4 ">
         <Container>
           <span className="text-[14px] text-white  ">
             NeuraX AI processes millions of market signals per second for
@@ -23,15 +35,17 @@ const Navbar = () => {
           </span>
         </Container>
       </div>
-      <div className="h-[2px]  bg-linear-(--border-linear) w-full" />
+      <div className="hidden md:block h-[2px]  bg-linear-(--border-linear) w-full" />
       <Container>
-        <div className="mx-[80px]">
+        <div className="mx-[20px] md:mx-[40px] lg:mx-[80px]">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center gap-2">
               <LogoIcon />
-              <div className="flex items-center gap-6 pl-12">
+
+              <div className=" hidden md:flex items-center gap-6 pl-4 lg:pl-12">
                 {NavMenu.map((item) => (
                   <span
+                    onClick={(e) => scrollToElement(e, item.id)}
                     key={item.id}
                     className="text-[16px] text-lightGray font-normal hover:text-white  hover:cursor-pointer"
                   >
@@ -40,7 +54,21 @@ const Navbar = () => {
                 ))}
               </div>
             </div>
-            <div className="flex gap-4">
+            <div className="block m-0 md:hidden">
+              <div
+                className={
+                  " transition-opacity duration-[1500ms] cursor-pointer"
+                }
+                onClick={() => setShowMenu(!showMenu)}
+              >
+                {showMenu ? <CloseMenuIcon /> : <OpenMenuIcon />}
+              </div>
+              <MobileNavbar
+                visible={showMenu}
+                onDismissMobileMenu={() => setShowMenu(false)}
+              />
+            </div>
+            <div className="hidden md:flex gap-4">
               <div className="flex items-center gap-4">
                 <GithubIcon />
                 <TwitterIcon />
