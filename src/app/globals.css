@@ -48,10 +48,7 @@
   }
 }
 
-html,
-body {
-  overflow-x: hidden;
-}
+
 
 body {
   font-family: var(--font-manrope);
