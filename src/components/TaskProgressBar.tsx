@@ -156,7 +156,7 @@ const TaskProgressBar = () => {
         </div>
       </Container>
       {/* images */}
-      <div className="relative">
+      <div className="relative ">
         <div className="absolute  top-[-40px] left-[-8%] rounded-[80px] rotate-[45deg] opacity-[0.64] w-[400px] h-[300px] z-10 bg-linear-(--image-gradient) blur-[200px]" />
         <div className="absolute right-[-8%]  top-[-40px] w-[400px]  rounded-[80px] h-[450px] rotate-[90deg] opacity-[0.64] z-10 bg-linear-(--image-gradient) blur-[200px] overflow-hidden" />
       </div>
@@ -166,6 +166,7 @@ const TaskProgressBar = () => {
           alt="Right Image"
           width={660}
           height={510}
+          className="max-w-full sm:w-[40%] w-[80%] object-contain"
           // className="absolute left-0 top-[34px] bottom-0 w-[650] max-w-none"
         />
         <Image
@@ -173,6 +174,7 @@ const TaskProgressBar = () => {
           alt="Left Image"
           width={660}
           height={500}
+          className="max-w-full sm:w-[40%] w-[80%] object-contain"
           // className="absolute  top-[34px] right-0 bottom-0 w-[650] max-w-none"
         />
       </div>

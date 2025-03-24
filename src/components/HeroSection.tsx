@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <HeroSectionAnimation>
+    <>
       {/* Hero content */}
       <div className="absolute inset-x-0 pt-12 w-full px-4">
         <div className="mx-auto max-w-[800px]">

@@ -543,9 +543,9 @@ const AIInterface: React.FC<SVGProps<SVGSVGElement>> = () => {
           y2="128"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" stop-opacity="0" />
-          <stop offset="0.5" stop-color="white" />
-          <stop offset="1" stop-color="white" stop-opacity="0" />
+          <stop stopColor="white" stopOpacity="0" />
+          <stop offset="0.5" stopColor="white" />
+          <stop offset="1" stopColor="white" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_200_1961"
@@ -555,8 +555,8 @@ const AIInterface: React.FC<SVGProps<SVGSVGElement>> = () => {
           y2="391.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.2" stop-color="#3A4ADB" stop-opacity="0" />
-          <stop offset="1" stop-color="#3A4ADB" />
+          <stop offset="0.2" stopColor="#3A4ADB" stopOpacity="0" />
+          <stop offset="1" stopColor="#3A4ADB" />
         </linearGradient>
       </defs>
     </svg>

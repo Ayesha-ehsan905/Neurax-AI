@@ -2,10 +2,10 @@
 
 import { OUR_JOURNEY } from "@/utilis/constant";
 import { motion, useTransform, useScroll } from "framer-motion";
-import { div } from "framer-motion/client";
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
+import { BulletIcon } from "./icon";
 
-const Example = () => {
+const OurJourney = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center gap-4 mt-[160px]">
@@ -39,58 +39,51 @@ const HorizontalScrollCarousel = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["0%", `${maxOffset}px`]);
   const progressWidth = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
-  // **State to track visible phase numbers**
-  const [visiblePhases, setVisiblePhases] = useState<number[]>([]);
-
-  useEffect(() => {
-    const updateVisiblePhases = () => {
-      const scrollX = parseFloat(x.get()); // Get current scroll value
-      const phaseNumbers: number[] = [];
-
-      OUR_JOURNEY.forEach((_, index) => {
-        const cardStart = index * (cardWidth + gap);
-        const cardEnd = cardStart + cardWidth;
-
-        // Check if card is fully in view
-        if (cardStart >= -scrollX && cardEnd <= viewportWidth - scrollX) {
-          phaseNumbers.push(index + 1);
-        }
-      });
-
-      setVisiblePhases(phaseNumbers);
-    };
-
-    const unsubscribeX = x.on("change", updateVisiblePhases);
-    return () => unsubscribeX();
-  }, [x]);
-
   return (
     <section ref={targetRef} className="relative h-[150vh]">
       {/* Sticky container for scrolling */}
       <div className="sticky top-[20%] flex h-screen items-center overflow-hidden">
-        {/* Phase Numbers Above Progress Bar */}
-
-        <div className="absolute top-[10%] left-1/2 transform -translate-x-1/2 w-[80%] flex justify-between text-white text-lg font-bold z-50">
-          {visiblePhases.map((item, idx) => (
-            <span key={idx} className="text-center w-[50px]">
-              Phase {item}
-            </span>
-          ))}
+        {/* Labels above the progress bar */}
+        <div className="absolute top-[21%] left-[-15%] w-[20%] h-[40%] bg-linear-(--image-gradient) z-60 blur-[100px] opacity-[0.4]" />
+        <div className="absolute top-[21%] right-[-15%] w-[20%] h-[40%] bg-linear-(--image-gradient) z-60 blur-[100px] opacity-[0.4]" />
+        <div
+          className="absolute  left-[10%] "
+          style={{ top: "calc(15% - 32px)" }}
+        >
+          <motion.div style={{ x }} className="flex gap-[165px]">
+            {OUR_JOURNEY.map((card) => (
+              <div
+                key={card.id}
+                style={{ width: `${cardWidth}px`, textAlign: "center" }}
+              >
+                <div className="flex items-center gap-2">
+                  <BulletIcon />
+                  <span className="text-[14px] font-normal leading-[120%] text-white whitespace-nowrap">
+                    Phase {card.id}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </motion.div>
         </div>
 
         {/* Progress Bar positioned above the cards */}
-        <div className="absolute top-[20%] left-1/2 w-[80%] h-2 bg-gray-500 z-50 -translate-x-1/2 -translate-y-1/2 rounded-[12px]">
+        <div className="absolute top-[20%] left-1/2   w-[80%] h-2 bg-darkCharcoal6B z-50 -translate-x-1/2 -translate-y-1/2 rounded-[12px]">
           <motion.div
             style={{
               width: progressWidth,
-              background: "linear-gradient( 360deg, #16E390 0%, #3A4ADB 100%)",
+              height: "100%",
+              borderRadius: "12px",
+              background: "linear-gradient(-260deg, #16E390 0%, #3A4ADB 100%)",
             }}
-            className="h-full bg-red-500 rounded-[12px]"
           />
         </div>
 
         {/* Horizontal Scrolling Cards */}
-        <motion.div style={{ x }} className="flex gap-[165px] px-6">
+        <motion.div
+          style={{ x, top: "calc(22% + 40px)" }}
+          className="flex gap-[165px] px-6 absolute "
+        >
           {OUR_JOURNEY.map((card, index) => (
             <Card
               key={card.id}
@@ -110,6 +103,7 @@ const Card = ({
   cardWidth,
   isFirst,
 }: {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   card: any;
   cardWidth: number;
   isFirst: boolean;
@@ -139,4 +133,4 @@ const Card = ({
   );
 };
 
-export default Example;
+export default OurJourney;

@@ -191,7 +191,7 @@ export const OUR_JOURNEY = [
   {
     id: 1,
     icon: <ArrowIcon />,
-    title: "Lorem Ipsum",
+    title: "Phase 1",
     items: [
       "Lorem ipsum dolor sit amet",
       "Lorem ipsum dolor sit amet",
@@ -201,7 +201,7 @@ export const OUR_JOURNEY = [
   {
     id: 2,
     icon: <ArrowIcon />,
-    title: "Lorem Ipsum",
+    title: "Phase 2",
     items: [
       "Lorem ipsum dolor sit amet",
       "Lorem ipsum dolor sit amet",
@@ -211,7 +211,7 @@ export const OUR_JOURNEY = [
   {
     id: 3,
     icon: <ArrowIcon />,
-    title: "Lorem Ipsum",
+    title: "Phase 3",
     items: [
       "Lorem ipsum dolor sit amet",
       "Lorem ipsum dolor sit amet",
@@ -221,7 +221,7 @@ export const OUR_JOURNEY = [
   {
     id: 4,
     icon: <ArrowIcon />,
-    title: "Lorem Ipsum",
+    title: "Phase 4",
     items: [
       "Lorem ipsum dolor sit amet",
       "Lorem ipsum dolor sit amet",
@@ -231,7 +231,7 @@ export const OUR_JOURNEY = [
   {
     id: 5,
     icon: <ArrowIcon />,
-    title: "Lorem Ipsum",
+    title: "Phase 5",
     items: [
       "Lorem ipsum dolor sit amet",
       "Lorem ipsum dolor sit amet",
@@ -241,7 +241,7 @@ export const OUR_JOURNEY = [
   {
     id: 6,
     icon: <ArrowIcon />,
-    title: "Lorem Ipsum",
+    title: "Phase 6",
     items: [
       "Lorem ipsum dolor sit amet",
       "Lorem ipsum dolor sit amet",

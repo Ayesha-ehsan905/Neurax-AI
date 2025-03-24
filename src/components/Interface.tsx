@@ -5,7 +5,7 @@ import { AIInterfaceIcon, PlayIcon } from "./icon";
 const Interface = () => {
   return (
     // /images/chat_ai.png
-    <div className="bg-[url('/images/bg-img.png')] bg-no-repeat bg-cover bg-center mt-[280px]">
+    <div className="bg-[url('/images/bg-img.png')] bg-no-repeat bg-cover bg-center ">
       <Container>
         <div className=" flex flex-row  pt-4 justify-between">
           <div className="pl-[80px] py-[80px]">

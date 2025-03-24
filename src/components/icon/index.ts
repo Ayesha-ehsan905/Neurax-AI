@@ -28,3 +28,5 @@ export { default as LogoWhite } from "./LogoWhite";
 export { default as PlayIcon } from "./Play";
 export { default as ArrowIcon } from "./Arrow";
 export { default as AIInterfaceIcon } from "./AIInterface";
+export { default as BulletIcon } from "./Bullet";
+export { default as CircleIcon } from "./Circle";
