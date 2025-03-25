@@ -14,7 +14,7 @@ const AIAdvantages = () => {
           <h1 className=" text-[24px] sm:text-[40px] font-medium font-esbuild text-center">
             The Ultimate AI Trading Advantage{" "}
           </h1>
-          <p className="text-[16px] text-center font-normal ">
+          <p className="text-[16px] md:text-[14px] text-center font-normal ">
             Powered by next-generation machine learning
           </p>
         </div>
@@ -33,7 +33,7 @@ const AIAdvantages = () => {
                         {item.title}
                       </h3>
                     </div>
-                    <p className="text-[14px] font-normal leading-[120%] tracking-[4%]">
+                    <p className=" text-[16px] md:text-[14px] font-normal leading-[120%] tracking-[4%]">
                       {item.description}
                     </p>
                   </div>

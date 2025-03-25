@@ -12,7 +12,7 @@ const PoweredFeatures = () => {
         <span className="text-[24px] font-medium font-esbuild text-center md:text-[40px]">
           AI-Powered Features
         </span>
-        <span className="text-[14px] font-normal leading-[1.3] tracking-[4%] text-center">
+        <span className="text-[16px] md:text-[14px] font-normal leading-[1.3] tracking-[4%] text-center">
           Cutting-edge machine learning technology designed to transform your
           trading experience and maximize returns through intelligent automation
           and predictive insights.
@@ -34,10 +34,10 @@ const PoweredFeatures = () => {
                     </span>
                   </div>
                   <div className="flex flex-col h-full justify-between gap-4 sm:gap-0">
-                    <h3 className="text-[20px] font-semibold  leading-[120%] text-center sm:text-left">
+                    <h3 className="text-[16px] md:text-[20px] font-semibold  leading-[120%] text-center sm:text-left">
                       {feature.title}
                     </h3>
-                    <p className="text-[14px] text-white font-normal leading-[120%]  tracking-[4%] text-center sm:text-left max-w-[700px]">
+                    <p className="text-[16px] md:text-[14px] text-white font-normal leading-[120%]  tracking-[4%] text-center sm:text-left max-w-[700px]">
                       {feature.description}
                     </p>
                   </div>

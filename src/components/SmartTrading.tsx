@@ -11,7 +11,7 @@ const SmartTrading = () => {
           <h1 className="text-[24px] font-medium  text-center font-esbuild md:text-[40px]">
             The Future of AI-Powered Crypto Trading is Here
           </h1>
-          <p className="text-[14px] text-center font-normal">
+          <p className="text-[16px] md:text-[14px] text-center font-normal">
             NeuraX AI leverages cutting-edge machine learning, predictive
             analytics, and real-time automation to optimize your trading
             strategy, enhance decision-making, and minimize risks in the

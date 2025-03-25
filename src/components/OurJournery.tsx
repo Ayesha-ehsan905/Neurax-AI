@@ -56,7 +56,11 @@ const HorizontalScrollCarousel = () => {
                 key={card.id}
                 style={{ width: `${cardWidth}px`, textAlign: "center" }}
               >
-                <div className="flex items-center gap-2">
+                <div
+                  className={`flex items-center gap-2 ${
+                    card.id == 6 ? "ml-[80px] sm:ml-0" : ""
+                  }`}
+                >
                   <BulletIcon />
                   <span className="text-[14px] font-normal leading-[120%] text-white whitespace-nowrap">
                     Phase {card.id}
@@ -90,6 +94,7 @@ const HorizontalScrollCarousel = () => {
               card={card}
               cardWidth={cardWidth}
               isFirst={index == 0}
+              isLast={index == 5}
             />
           ))}
         </motion.div>
@@ -102,17 +107,20 @@ const Card = ({
   card,
   cardWidth,
   isFirst,
+  isLast,
 }: {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   card: any;
   cardWidth: number;
   isFirst: boolean;
+  isLast: boolean;
 }) => {
+  console.log(isLast);
   return (
     <div
       className={`group relative overflow-hidden bg-blackDarker text-white rounded-xl shadow-lg border border-darkCharcoal  ${
         isFirst ? "2xl:ml-[120px] md:ml-[80px]" : ""
-      }`}
+      } ${isLast ? "ml-[80px] sm:ml-0" : ""}`}
       style={{
         width: `${cardWidth}px`,
       }}

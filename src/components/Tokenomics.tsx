@@ -29,7 +29,7 @@ const Tokenomics = () => {
                 <h3 className="text-[18px] text-white font-semibold  leading-[120%]">
                   {tokenomics.title}
                 </h3>
-                <p className="text-[14px] text-white font-normal leading-[120%]  tracking-[4%]">
+                <p className="text-[16px] md:text-[14px] text-white font-normal leading-[120%]  tracking-[4%]">
                   {tokenomics.description}
                 </p>
               </div>

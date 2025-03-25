@@ -158,7 +158,7 @@ const TaskProgressBar = () => {
         </div>
         <div className="flex justify-center items-center flex-col gap-4 mt-[64px] mx-4 md:mx-0 ">
           <span
-            className={`text-[40px] font-esbuild font-medium  transition-opacity duration-500 ${
+            className={`text-[24px] md:text-[40px] font-esbuild font-medium  transition-opacity duration-500 ${
               textFade ? "opacity-0" : "opacity-100"
             }`}
           >
@@ -166,7 +166,7 @@ const TaskProgressBar = () => {
           </span>
 
           <p
-            className={`max-w-3xl text-center text-[14px] leading-[1.3] transition-opacity duration-500 tracking-[4%]  text-white ${
+            className={`max-w-3xl text-center text-[16px] md:text-[14px] leading-[1.3] transition-opacity duration-500 tracking-[4%]  text-white ${
               textFade ? "opacity-0" : "opacity-100"
             }`}
           >

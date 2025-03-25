@@ -11,7 +11,7 @@ const HeroSection = () => {
           <h1 className="text-[40px]  text-center font-medium mb-4 font-esbuild text-white md:text-[56px]">
             The Future of AI-Powered Crypto Trading is Here
           </h1>
-          <p className="leading-[120%] tracking-[4%] text-center text-[16px] mt-[24px] text-white md:text-[14px] md:leading-[100%]">
+          <p className="leading-[120%] tracking-[4%] text-center text-[16px] md:text-[14px] mt-[24px] text-white md:leading-[100%]">
             Precision Trading Assistant Driven by Advanced Machine Learning
           </p>
         </div>
