@@ -37,7 +37,7 @@ const PoweredFeatures = () => {
                     <h3 className="text-[20px] font-semibold  leading-[120%] text-center sm:text-left">
                       {feature.title}
                     </h3>
-                    <p className="text-[14px] text-white font-normal leading-[120%]  tracking-[4%] text-center sm:text-left">
+                    <p className="text-[14px] text-white font-normal leading-[120%]  tracking-[4%] text-center sm:text-left max-w-[700px]">
                       {feature.description}
                     </p>
                   </div>

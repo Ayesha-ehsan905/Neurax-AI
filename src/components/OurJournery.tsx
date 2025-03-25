@@ -9,7 +9,7 @@ const OurJourney = () => {
   return (
     <>
       <div className="flex flex-col justify-center items-center gap-4 mt-[160px]">
-        <span className="text-[40px] font-medium font-esbuild">
+        <span className="text-[24px] md:text-[40px] font-medium font-esbuild">
           Our Journey
         </span>
         <span className="text-[16px] font-normal leading-[120%]">
@@ -110,10 +110,11 @@ const Card = ({
 }) => {
   return (
     <div
-      className="group relative overflow-hidden bg-blackDarker text-white rounded-xl shadow-lg border border-darkCharcoal"
+      className={`group relative overflow-hidden bg-blackDarker text-white rounded-xl shadow-lg border border-darkCharcoal  ${
+        isFirst ? "2xl:ml-[120px] md:ml-[80px]" : ""
+      }`}
       style={{
         width: `${cardWidth}px`,
-        marginLeft: isFirst ? "80px" : "0px",
       }}
     >
       <div className="flex flex-col gap-4 p-4 h-full">

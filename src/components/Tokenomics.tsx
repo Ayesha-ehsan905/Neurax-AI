@@ -5,10 +5,10 @@ const Tokenomics = () => {
   return (
     <Container>
       <div
-        className="flex flex-col items-center justify-center mt-[280px] gap-4"
+        className="flex flex-col items-center justify-center mt-[280px] gap-4 mx-4"
         id="solutions"
       >
-        <span className="text-[50px] font-medium text-center font-esbuild">
+        <span className="text-[24px] md:text-[40px] font-medium text-center font-esbuild">
           Tokenomics
         </span>
         <span className="text-[14px] font-normal leading-[130%] tracking-[4%] text-center text-white">
@@ -17,12 +17,12 @@ const Tokenomics = () => {
         </span>
       </div>
 
-      <div className="flex justify-center mt-[64px]">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="flex justify-center mt-[64px] mx-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[20px] sm:gap-6">
           {TOKENOMICS_DATA.map((tokenomics, index) => (
             <div
               key={index}
-              className="w-[530px] bg-blackDarker text-white p-4 rounded-xl shadow-lg border border-darkCharcoal"
+              className="max-w-[530px] flex-1 bg-blackDarker text-white p-4 rounded-xl shadow-lg border border-darkCharcoal"
             >
               <div className="flex flex-col gap-4 ">
                 <div>{tokenomics.icon}</div>

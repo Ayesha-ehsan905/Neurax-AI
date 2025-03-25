@@ -6,16 +6,19 @@ import Button from "./sections/Button";
 const AIAdvantages = () => {
   return (
     <Container>
-      <div className="mt-[280px] mx-[100px]" id="pricing">
+      <div
+        className="mt-[280px] mx-4  flex flex-col items-center justify-center"
+        id="pricing"
+      >
         <div className="flex justify-center flex-col items-center gap-4">
-          <h1 className="text-[40px] font-medium font-esbuild">
+          <h1 className=" text-[24px] sm:text-[40px] font-medium font-esbuild text-center">
             The Ultimate AI Trading Advantage{" "}
           </h1>
-          <p className="text-[16px] text-center font-normal">
+          <p className="text-[16px] text-center font-normal ">
             Powered by next-generation machine learning
           </p>
         </div>
-        <div className=" p-4 mt-[60px]">
+        <div className="px-0 sm:px-4 py-4 mt-[60px]">
           <div className="flex flex-col md:flex-row flex-wrap gap-[20px]">
             {ADVANTAGES.map((item, index) => {
               return (

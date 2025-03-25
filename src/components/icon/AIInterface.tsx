@@ -8,6 +8,7 @@ const AIInterface: React.FC<SVGProps<SVGSVGElement>> = () => {
       viewBox="0 0 818 360"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="hidden lg:block"
     >
       <path
         d="M244.536 16.8662H789.944C796.295 16.8662 801.444 22.0149 801.444 28.3662V461.163H233.036V28.3662C233.036 22.015 238.185 16.8662 244.536 16.8662Z"
