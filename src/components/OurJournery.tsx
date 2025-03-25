@@ -86,7 +86,7 @@ const HorizontalScrollCarousel = () => {
         {/* Horizontal Scrolling Cards */}
         <motion.div
           style={{ x, top: "calc(22% + 40px)" }}
-          className="flex gap-[165px] px-6 absolute "
+          className="flex gap-[165px] lg:gap-[120px] px-6 absolute "
         >
           {OUR_JOURNEY.map((card, index) => (
             <Card
@@ -120,7 +120,7 @@ const Card = ({
     <div
       className={`group relative overflow-hidden bg-blackDarker text-white rounded-xl shadow-lg border border-darkCharcoal  ${
         isFirst ? "2xl:ml-[120px] md:ml-[80px]" : ""
-      } ${isLast ? "ml-[80px] sm:ml-0" : ""}`}
+      } ${isLast ? "ml-[80px] " : ""}`}
       style={{
         width: `${cardWidth}px`,
       }}
