@@ -5,7 +5,10 @@
   --font-esbuild: ESBuild;
   --background: #ffffff;
   --foreground: #171717;
+  --circle-size: 24px;
+
 }
+
 
 @theme inline {
 
@@ -24,6 +27,8 @@
   --color-blackDarker: #181818;
   --color-darkCharcoal: #303030;
   --color-darkCharcoal6B: #3030306B;
+  --breakpoint-xs: 24rem;
+
 
 
 
@@ -39,7 +44,11 @@
 
 }
 
-
+@media (min-width: 1024px) {
+  :root {
+    --circle-size: 34px;
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   :root {

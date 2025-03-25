@@ -6,6 +6,14 @@ import Container from "./Container";
 import Button from "./sections/Button";
 import Image from "next/image";
 
+const CIRCLE_SIZE =
+  typeof window !== "undefined"
+    ? parseInt(
+        getComputedStyle(document.documentElement).getPropertyValue(
+          "--circle-size"
+        )
+      )
+    : 24;
 const TaskProgressBar = () => {
   const steps = [1, 2, 3, 4]; // Number of circles
   const totalTime = 60; // Total time in seconds
@@ -63,23 +71,23 @@ const TaskProgressBar = () => {
   return (
     <>
       <Container>
-        <div className="flex flex-wrap items-center justify-center mt-[320px]">
+        <div className="flex flex-wrap items-center justify-center  mt-[320px] mx-4 md:mx-0 ">
           {steps.map((_, index) => {
-            const radius = 16;
+            const radius = CIRCLE_SIZE / 2 - 4; // Adjust circle radius based on size
             const circumference = 2 * Math.PI * radius;
             const offset = circumference * ((100 - progress[index]) / 100);
-            const circleSize = "w-10 h-10 sm:w-12 sm:h-12";
-            const strokeWidth = 4;
+            const strokeWidth = 2;
             const glowOpacity = Math.min(progress[index] / 100, 0.5);
             const glowBlur = Math.max((progress[index] / 100) * 12, 3);
-            const glowSize = "w-10 h-10 sm:w-12 sm:h-12";
 
             return (
               <div key={index} className="relative flex items-center">
                 <div className="relative flex items-center justify-center">
                   <div
-                    className={`absolute rounded-full transition-all duration-300 ${glowSize}`}
+                    className="absolute rounded-full transition-all duration-300"
                     style={{
+                      width: CIRCLE_SIZE,
+                      height: CIRCLE_SIZE,
                       backgroundImage:
                         "linear-gradient(360deg, #16E390 0%, #3A4ADB 100%)",
                       filter: `blur(${glowBlur}px)`,
@@ -88,22 +96,22 @@ const TaskProgressBar = () => {
                   />
 
                   <svg
-                    width="40"
-                    height="40"
-                    viewBox="0 0 40 40"
-                    className={`relative ${circleSize}`}
+                    width={CIRCLE_SIZE}
+                    height={CIRCLE_SIZE}
+                    viewBox={`0 0 ${CIRCLE_SIZE} ${CIRCLE_SIZE}`}
+                    className="relative"
                   >
                     <circle
-                      cx="20"
-                      cy="20"
+                      cx={CIRCLE_SIZE / 2}
+                      cy={CIRCLE_SIZE / 2}
                       r={radius}
                       stroke="#202020"
                       strokeWidth={strokeWidth}
                       fill="none"
                     />
                     <circle
-                      cx="20"
-                      cy="20"
+                      cx={CIRCLE_SIZE / 2}
+                      cy={CIRCLE_SIZE / 2}
                       r={radius}
                       stroke="#16E390"
                       strokeWidth={strokeWidth}
@@ -117,26 +125,40 @@ const TaskProgressBar = () => {
                 </div>
 
                 {index < steps.length - 1 && (
-                  <div className="flex items-center -ml-0.5">
-                    {[1, 2, 3, 4, 5, 6, 7].map((dash) => (
-                      <div
-                        key={dash}
-                        className="h-1 w-[6px] sm:w-[8px] rounded-full transition-all duration-300 mx-1"
-                        style={{
-                          backgroundColor:
-                            progress[index] >= 100 ? "#3A4ADB" : "#202020",
-                        }}
-                      />
-                    ))}
-                  </div>
+                  <>
+                    <div className=" hidden md:flex items-center -ml-0.5">
+                      {[1, 2, 3, 4, 5, 6, 7].map((dash) => (
+                        <div
+                          key={dash}
+                          className="h-1 w-[6px] sm:w-[8px] rounded-full transition-all duration-300 mx-1"
+                          style={{
+                            backgroundColor:
+                              progress[index] >= 100 ? "#3A4ADB" : "#202020",
+                          }}
+                        />
+                      ))}
+                    </div>
+                    <div className="flex md:hidden items-center -ml-0.5">
+                      {[1, 2, 3, 4, 5].map((dash) => (
+                        <div
+                          key={dash}
+                          className="h-1 w-[6px] sm:w-[8px] rounded-full transition-all duration-300 mx-1"
+                          style={{
+                            backgroundColor:
+                              progress[index] >= 100 ? "#3A4ADB" : "#202020",
+                          }}
+                        />
+                      ))}
+                    </div>
+                  </>
                 )}
               </div>
             );
           })}
         </div>
-        <div className="flex justify-center items-center flex-col mt-[64px]">
+        <div className="flex justify-center items-center flex-col gap-4 mt-[64px] mx-4 md:mx-0 ">
           <span
-            className={`text-[40px] font-esbuild font-medium mb-4 transition-opacity duration-500 ${
+            className={`text-[40px] font-esbuild font-medium  transition-opacity duration-500 ${
               textFade ? "opacity-0" : "opacity-100"
             }`}
           >
@@ -151,22 +173,22 @@ const TaskProgressBar = () => {
             {TASKS[currentTask].description}
           </p>
           <div className="mt-[40px]">
-            <Button width="190px" text="Learn More" />
+            <Button width="w-[190px]" text="Learn More" />
           </div>
         </div>
       </Container>
       {/* images */}
-      <div className="relative ">
-        <div className="absolute  top-[-40px] left-[-8%] rounded-[80px] rotate-[45deg] opacity-[0.64] w-[400px] h-[300px] z-10 bg-linear-(--image-gradient) blur-[200px]" />
-        <div className="absolute right-[-8%]  top-[-40px] w-[400px]  rounded-[80px] h-[450px] rotate-[90deg] opacity-[0.64] z-10 bg-linear-(--image-gradient) blur-[200px] overflow-hidden" />
+      <div className="relative " style={{ overflowX: "clip" }}>
+        <div className="absolute  top-[-40px] left-[-10%] rounded-[80px] rotate-[45deg] opacity-[0.64] w-[100px] h-[200px]  z-10 bg-linear-(--image-gradient) blur-[78px] md:w-[400px] md:h-[300px] md:blur-[200px]" />
+        <div className="absolute  top-[-40px] right-[-10%] rounded-[80px] rotate-[90deg] opacity-[0.64] w-[100px] h-[200px] z-10 bg-linear-(--image-gradient) blur-[78px] overflow-hidden md:w-[400px] md:h-[450px] md:blur-[200px] " />
       </div>
-      <div className="flex flex-row justify-between pt-[40px]">
+      <div className="flex flex-row justify-between pt-[40px] gap-[60px]">
         <Image
           src="/images/ai_agent1.png"
           alt="Right Image"
           width={660}
           height={430}
-          className="max-w-full sm:w-[40%] w-[80%] object-contain"
+          className="w-[40%] sm:w-[40%]  object-contain"
           // className="absolute left-0 top-[34px] bottom-0 w-[650] max-w-none"
         />
         <Image
@@ -174,7 +196,7 @@ const TaskProgressBar = () => {
           alt="Left Image"
           width={660}
           height={430}
-          className="max-w-full sm:w-[40%] w-[80%] object-contain"
+          className=" sm:w-[40%] w-[40%] object-contain"
           // className="absolute  top-[34px] right-0 bottom-0 w-[650] max-w-none"
         />
       </div>
