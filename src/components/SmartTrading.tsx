@@ -6,7 +6,7 @@ import Container from "./Container";
 const SmartTrading = () => {
   return (
     <Container>
-      <div className="mt-[300px] mx-[16px] lg:mx-[200px]" id="product">
+      <div className="mt-[300px] mx-[16px] lg:mx-[200px]" id="solutions">
         <div className="flex justify-center flex-col items-center gap-4">
           <h1 className="text-[24px] font-medium  text-center font-esbuild md:text-[40px]">
             The Future of AI-Powered Crypto Trading is Here

@@ -6,7 +6,7 @@ const Tokenomics = () => {
     <Container>
       <div
         className="flex flex-col items-center justify-center mt-[280px] gap-4 mx-4"
-        id="solutions"
+        id="pricing"
       >
         <span className="text-[24px] md:text-[40px] font-medium text-center font-esbuild">
           Tokenomics

@@ -8,7 +8,7 @@ const AIAdvantages = () => {
     <Container>
       <div
         className="mt-[280px] mx-4  flex flex-col items-center justify-center"
-        id="pricing"
+        id="product"
       >
         <div className="flex justify-center flex-col items-center gap-4">
           <h1 className=" text-[24px] sm:text-[40px] font-medium font-esbuild text-center">
