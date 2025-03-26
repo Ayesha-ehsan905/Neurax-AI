@@ -13,36 +13,62 @@ const AIProtfolio: React.FC<SVGProps<SVGSVGElement>> = () => {
         d="M32.2025 192.781L0.215332 201H200V1L182.109 22.9178L144.158 36.6164L103.225 123.603L68.2559 110.589L32.2025 192.781Z"
         fill="url(#paint0_linear_200_1817)"
       />
-      <path
-        d="M6.21533 198.765L32.2025 192.781L68.2559 110.589L103.225 123.603L144.158 36.6164L182.109 22.9178L200 1"
-        stroke="#404040"
-        strokeOpacity="0.4"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-      <path
+      {/* firstpath */}
+      <g>
+        <path
+          d="M6.21533 198.765L32.2025 192.781L68.2559 110.589L103.225 123.603L144.158 36.6164L182.109 22.9178L200 1"
+          stroke="#404040"
+          strokeOpacity="0.4"
+          strokeWidth="2"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M6.21533 198.765L32.2025 192.781L68.2559 110.589L103.225 123.603L144.158 36.6164L182.109 22.9178L200 1"
+          // stroke="#404040"
+          strokeOpacity="0.4"
+          stroke="url(#Gradient)"
+          strokeWidth="2"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+
+      {/* <path
         d="M6.21533 198.765L32.2025 192.781L68.2559 110.589L103.225 123.603L144.158 36.6164L182.109 22.9178L200 1"
         stroke="url(#paint1_linear_200_1817)"
         strokeWidth="2"
         strokeLinecap="round"
-      />
+      /> */}
       <path
         d="M32.2025 193.678L0.215332 184.321V201H200V115.98L175.061 137.947L151.206 119.234L103.767 173.338L67.4427 168.05L32.2025 193.678Z"
         fill="url(#paint2_linear_200_1817)"
       />
-      <path
-        d="M1.21533 184.989L32.2025 193.678L67.4427 168.05L103.767 173.338L151.206 119.234L175.061 137.947L200 115.98"
-        stroke="#404040"
-        strokeOpacity="0.4"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-      <path
+      {/* second path */}
+      <g>
+        <path
+          d="M1.21533 184.989L32.2025 193.678L67.4427 168.05L103.767 173.338L151.206 119.234L175.061 137.947L200 115.98"
+          stroke="#404040"
+          strokeOpacity="0.4"
+          strokeWidth="2"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M1.21533 184.989L32.2025 193.678L67.4427 168.05L103.767 173.338L151.206 119.234L175.061 137.947L200 115.98"
+          stroke="url(#Gradient1)"
+          strokeOpacity="0.4"
+          strokeWidth="2"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+      {/* <path
         d="M1.21533 184.989L32.2025 193.678L67.4427 168.05L103.767 173.338L151.206 119.234L175.061 137.947L200 115.98"
         stroke="url(#paint3_linear_200_1817)"
         strokeWidth="2"
         strokeLinecap="round"
-      />
+      /> */}
       <circle cx="145" cy="36" r="6" fill="#828788" />
       <circle cx="103" cy="172" r="6" fill="#828788" />
       <rect
@@ -168,6 +194,72 @@ const AIProtfolio: React.FC<SVGProps<SVGSVGElement>> = () => {
           <stop offset="0.45" stopColor="#16E390" />
           <stop offset="0.657658" stopColor="#16E390" stopOpacity="0" />
           <stop offset="1" stopColor="#16E390" stopOpacity="0" />
+        </linearGradient>
+      </defs>
+
+      <defs>
+        <linearGradient
+          id="Gradient"
+          gradientUnits="userSpaceOnUse"
+          x1="0"
+          x2="100%"
+          y1="0"
+          y2="0"
+        >
+          <stop stopColor="#16E390" stopOpacity="0" />
+          <stop stopColor="#16E390" />
+          <stop offset="7%" stopColor="#16E390" />
+          <stop offset="7%" stopColor="#16E390" stopOpacity="0" />
+
+          {/* <stop stopColor="#16E390" stopOpacity="0" />
+          <stop offset="0.252311" stopColor="#16E390" stopOpacity="0" />
+          <stop offset="0.45" stopColor="#16E390" />
+          <stop offset="0.657658" stopColor="#16E390" stopOpacity="0" />
+          <stop offset="1" stopColor="#16E390" stopOpacity="0" /> */}
+
+          <animate
+            attributeName="x1"
+            values="0%;100%;"
+            dur="4s"
+            repeatCount="indefinite"
+          />
+          <animate
+            attributeName="x2"
+            values="100%;200%;100%"
+            dur="6s"
+            repeatCount="indefinite"
+          />
+        </linearGradient>
+      </defs>
+      <defs>
+        <linearGradient
+          id="Gradient1"
+          gradientUnits="userSpaceOnUse"
+          x1="0"
+          x2="100%"
+          y1="0"
+          y2="0"
+        >
+          <stop stopColor="#16E390" stopOpacity="0" />
+          <stop stopColor="#16E390" />
+          <stop offset="7%" stopColor="#16E390" />
+          <stop offset="7%" stopColor="#16E390" stopOpacity="0" />
+          {/*  Adding delay (begin="4s") so it starts after the first animation  */}
+
+          <animate
+            attributeName="x1"
+            values="0%;100%;"
+            dur="4s"
+            begin="4s"
+            repeatCount="indefinite"
+          />
+          <animate
+            attributeName="x2"
+            values="100%;200%;100%"
+            dur="6s"
+            begin="4s"
+            repeatCount="indefinite"
+          />
         </linearGradient>
       </defs>
     </svg>
