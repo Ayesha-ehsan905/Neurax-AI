@@ -6,7 +6,6 @@ import {
   CandleChartIcon,
   FlagIcon,
   PersonalAIIcon,
-  PredictiveMarketIcon,
   AutomatedTradingIcon,
   RealTimeSentimentIcon,
   AIProtfolioIcon,
@@ -23,6 +22,8 @@ import {
   ArrowIcon,
 } from "@/components/icon";
 import AdvancedRisk from "@/components/icon/AdvancedRisk ";
+import AnimatedGrid from "@/components/Test";
+// import AnimatedGrid from "@/components/Test";
 
 export const SMART_TRADING = [
   {
@@ -79,7 +80,7 @@ export const FEATURES = [
     description:
       "Our AI-powered analytics engine scans vast market data to identify emerging trends, price patterns, and investment opportunities before they materialize.",
     tag: "NEURAX INSIGHT",
-    icon: <PredictiveMarketIcon />,
+    icon: <AnimatedGrid />,
   },
   {
     title: "Automated Trading Intelligence",

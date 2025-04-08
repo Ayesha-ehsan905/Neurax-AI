@@ -26,7 +26,7 @@ const PoweredFeatures = () => {
               key={index}
               className="w-[310px] xs:w-[370px] sm:w-[530px] bg-blackDarker text-white p-4 rounded-xl shadow-lg border border-darkCharcoal"
             >
-              <div className="flex flex-row gap-4 h-full justify-center items-center sm:justify-start  sm:items-stretch">
+              <div className="flex flex-row gap-4 h-full justify-center items-center sm:justify-start basis-1/2  sm:items-stretch">
                 <div className="flex flex-col gap-4 w-full sm:w-[270px] justify-center items-center sm:justify-normal sm:items-stretch">
                   <div className="bg-[#16E3901F] rounded-[40px] w-fit">
                     <span className="text-caribbeanGreen text-[12px] font-medium px-4 py-2">
@@ -42,7 +42,7 @@ const PoweredFeatures = () => {
                     </p>
                   </div>
                 </div>
-                <div className="hidden sm:block">{feature.icon}</div>
+                <div className="hidden sm:block basis-1/2">{feature.icon}</div>
               </div>
             </div>
           ))}
