@@ -20,7 +20,7 @@ const PredictiveMarket: React.FC<SVGProps<SVGSVGElement>> = () => {
           shapeRendering="crispEdges"
         />
       </g>
-      <g clip-path="url(#clip0_200_1552)">
+      <g clipPath="url(#clip0_200_1552)">
         <rect
           x="40.4292"
           y="40.6884"
@@ -315,7 +315,7 @@ const PredictiveMarket: React.FC<SVGProps<SVGSVGElement>> = () => {
           colorInterpolationFilters="sRGB"
           className="animate-pulse"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -368,7 +368,7 @@ const PredictiveMarket: React.FC<SVGProps<SVGSVGElement>> = () => {
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
