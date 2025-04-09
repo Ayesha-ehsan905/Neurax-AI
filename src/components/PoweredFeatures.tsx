@@ -42,7 +42,9 @@ const PoweredFeatures = () => {
                     </p>
                   </div>
                 </div>
-                <div className="hidden sm:block basis-1/2">{feature.icon}</div>
+                <div className="hidden sm:flex justify-center items-center basis-1/2">
+                  {feature.icon}
+                </div>
               </div>
             </div>
           ))}

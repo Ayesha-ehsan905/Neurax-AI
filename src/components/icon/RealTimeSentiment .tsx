@@ -3,31 +3,67 @@ import { SVGProps } from "react";
 const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
   return (
     <svg
-      width="220"
-      height="220"
-      viewBox="0 0 220 220"
+      width="109"
+      height="108"
+      viewBox="0 0 109 108"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="center-svg"
     >
-      <g filter="url(#filter0_f_200_1769)">
-        <path
-          d="M140.07 110C140.07 126.607 126.607 140.07 110 140.07C93.3925 140.07 79.9297 126.607 79.9297 110C79.9297 93.3929 93.3925 79.9301 110 79.9301C126.607 79.9301 140.07 93.3929 140.07 110Z"
-          stroke="#16E390"
+      <circle
+        cx="54.5361"
+        cy="53.9999"
+        r="100" // Increased radius of the circle
+        fill="none"
+        stroke="#16E390"
+        stroke-width="2"
+      >
+        <animate
+          attributeName="r"
+          from="20" // Increased from value for larger pulse
+          to="60" // Increased to value for larger pulse
+          dur="5.5s"
+          begin="6s"
+          repeatCount="indefinite"
         />
-      </g>
-      <g opacity="0.64" filter="url(#filter1_f_200_1769)">
-        <circle cx="110" cy="110" r="65.8213" stroke="#16E390" />
-      </g>
-      <g opacity="0.16" filter="url(#filter2_f_200_1769)">
-        <path
-          d="M209.5 110C209.5 164.952 164.952 209.5 110 209.5C55.0477 209.5 10.5 164.952 10.5 110C10.5 55.0477 55.0477 10.5 110 10.5C164.952 10.5 209.5 55.0477 209.5 110Z"
-          stroke="#16E390"
+        <animate
+          attributeName="opacity"
+          from="1"
+          to="0"
+          dur="5.5s"
+          begin="6s"
+          repeatCount="indefinite"
         />
-      </g>
-      <g filter="url(#filter3_dd_200_1769)">
+      </circle>
+      <circle
+        cx="54.5361"
+        cy="53.9999"
+        r="100" // Increased radius of the circle
+        fill="none"
+        stroke="#16E390"
+        stroke-width="2"
+      >
+        <animate
+          attributeName="r"
+          from="20" // Increased from value for larger pulse
+          to="60" // Increased to value for larger pulse
+          dur="5.5s"
+          begin="4s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          from="1"
+          to="0"
+          dur="5.5s"
+          begin="4s"
+          repeatCount="indefinite"
+        />
+      </circle>
+      <g filter="url(#filter0_dd_200_1773)">
         <ellipse
-          cx="110.544"
-          cy="110"
+          cx="54.5441"
+          cy="54"
           rx="13.5626"
           ry="13.5626"
           fill="#080808"
@@ -35,371 +71,309 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           shapeRendering="crispEdges"
         />
       </g>
-      <g clipPath="url(#clip0_200_1769)">
+      <g clip-path="url(#clip0_200_1773)">
         <rect
-          x="96.9814"
-          y="96.4374"
+          x="40.9814"
+          y="40.4374"
           width="27.1253"
           height="27.1252"
           rx="13.5626"
           fill="#181818"
           fillOpacity="0.08"
         />
-        <g filter="url(#filter4_f_200_1769)">
-          <circle cx="110.536" cy="123" r="12" fill="#16E390" />
+        <g filter="url(#filter1_f_200_1773)">
+          <circle cx="54.5361" cy="66.9999" r="12" fill="#16E390" />
         </g>
         <rect
-          x="112.087"
-          y="110.212"
+          x="56.0869"
+          y="54.2122"
           width="1.16636"
           height="2.91591"
           rx="0.583182"
-          transform="rotate(-15 112.087 110.212)"
+          transform="rotate(-15 56.0869 54.2122)"
           fill="white"
         />
         <rect
-          x="111.468"
-          y="108.704"
+          x="55.4683"
+          y="52.7043"
           width="1.16636"
           height="2.91591"
           rx="0.583182"
-          transform="rotate(-75 111.468 108.704)"
+          transform="rotate(-75 55.4683 52.7043)"
           fill="white"
         />
         <rect
-          x="109.879"
-          y="108.598"
+          x="53.8794"
+          y="52.5981"
           width="1.16636"
           height="2.91591"
           rx="0.583182"
-          transform="rotate(-135 109.879 108.598)"
+          transform="rotate(-135 53.8794 52.5981)"
           fill="white"
         />
         <rect
-          x="110.027"
-          y="105.674"
+          x="54.0269"
+          y="49.6736"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(-135 110.027 105.674)"
+          transform="rotate(-135 54.0269 49.6736)"
           fill="white"
         />
         <rect
-          x="110.206"
-          y="103.441"
+          x="54.2056"
+          y="47.4414"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(-135 110.206 103.441)"
+          transform="rotate(-135 54.2056 47.4414)"
           fill="white"
         />
         <rect
-          x="113.535"
-          y="104.175"
+          x="57.5352"
+          y="48.1746"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(-105 113.535 104.175)"
+          transform="rotate(-105 57.5352 48.1746)"
           fill="white"
         />
         <rect
-          x="116.053"
-          y="106.444"
+          x="60.0527"
+          y="50.4445"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(-75 116.053 106.444)"
+          transform="rotate(-75 60.0527 50.4445)"
           fill="white"
         />
         <rect
-          x="117.103"
-          y="109.662"
+          x="61.1025"
+          y="53.6617"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(-45 117.103 109.662)"
+          transform="rotate(-45 61.1025 53.6617)"
           fill="white"
         />
         <rect
-          x="116.403"
-          y="112.991"
+          x="60.4028"
+          y="56.9914"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(-15 116.403 112.991)"
+          transform="rotate(-15 60.4028 56.9914)"
           fill="white"
         />
         <rect
-          x="114.133"
-          y="115.509"
+          x="58.1328"
+          y="59.5089"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(15 114.133 115.509)"
+          transform="rotate(15 58.1328 59.5089)"
           fill="white"
         />
         <rect
-          x="110.882"
-          y="116.559"
+          x="54.8823"
+          y="60.5587"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(45 110.882 116.559)"
+          transform="rotate(45 54.8823 60.5587)"
           fill="white"
         />
         <rect
-          x="107.562"
-          y="115.859"
+          x="51.5625"
+          y="59.8588"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(75 107.562 115.859)"
+          transform="rotate(75 51.5625 59.8588)"
           fill="white"
         />
         <rect
-          x="105.045"
-          y="113.589"
+          x="49.0449"
+          y="57.5892"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(105 105.045 113.589)"
+          transform="rotate(105 49.0449 57.5892)"
           fill="white"
         />
         <rect
-          x="103.985"
-          y="110.338"
+          x="47.9854"
+          y="54.3384"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(135 103.985 110.338)"
+          transform="rotate(135 47.9854 54.3384)"
           fill="white"
         />
         <rect
-          x="104.718"
-          y="107.019"
+          x="48.7183"
+          y="51.0189"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(165 104.718 107.019)"
+          transform="rotate(165 48.7183 51.0189)"
           fill="white"
         />
         <rect
-          x="106.988"
-          y="104.501"
+          x="50.9883"
+          y="48.5013"
           width="0.637996"
           height="1.59499"
           rx="0.318998"
-          transform="rotate(-165 106.988 104.501)"
+          transform="rotate(-165 50.9883 48.5013)"
           fill="white"
         />
         <rect
-          x="112.344"
-          y="105.965"
+          x="56.3442"
+          y="49.9647"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(-105 112.344 105.965)"
+          transform="rotate(-105 56.3442 49.9647)"
           fill="white"
         />
         <rect
-          x="114.07"
-          y="107.378"
+          x="58.0698"
+          y="51.3781"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(-75 114.07 107.378)"
+          transform="rotate(-75 58.0698 51.3781)"
           fill="white"
         />
         <rect
-          x="114.886"
-          y="109.6"
+          x="58.8862"
+          y="53.5995"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(-45 114.886 109.6)"
+          transform="rotate(-45 58.8862 53.5995)"
           fill="white"
         />
         <rect
-          x="114.536"
-          y="111.771"
+          x="58.5361"
+          y="55.7711"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(-15 114.536 111.771)"
+          transform="rotate(-15 58.5361 55.7711)"
           fill="white"
         />
         <rect
-          x="113.123"
-          y="113.643"
+          x="57.123"
+          y="57.6428"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(15 113.123 113.643)"
+          transform="rotate(15 57.123 57.6428)"
           fill="white"
         />
         <rect
-          x="110.96"
-          y="114.459"
+          x="54.96"
+          y="58.4592"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(45 110.96 114.459)"
+          transform="rotate(45 54.96 58.4592)"
           fill="white"
         />
         <rect
-          x="108.73"
-          y="114.109"
+          x="52.7305"
+          y="58.1093"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(75 108.73 114.109)"
+          transform="rotate(75 52.7305 58.1093)"
           fill="white"
         />
         <rect
-          x="106.976"
-          y="112.579"
+          x="50.9756"
+          y="56.5793"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(105 106.976 112.579)"
+          transform="rotate(105 50.9756 56.5793)"
           fill="white"
         />
         <rect
-          x="106.101"
-          y="110.533"
+          x="50.1006"
+          y="54.5331"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(135 106.101 110.533)"
+          transform="rotate(135 50.1006 54.5331)"
           fill="white"
         />
         <rect
-          x="106.509"
-          y="108.303"
+          x="50.5088"
+          y="52.3032"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(165 106.509 108.303)"
+          transform="rotate(165 50.5088 52.3032)"
           fill="white"
         />
         <rect
-          x="107.922"
-          y="106.432"
+          x="51.9219"
+          y="50.4317"
           width="0.880096"
           height="2.20024"
           rx="0.440048"
-          transform="rotate(-165 107.922 106.432)"
+          transform="rotate(-165 51.9219 50.4317)"
           fill="white"
         />
         <rect
-          x="108.953"
-          y="109.811"
+          x="52.9531"
+          y="53.811"
           width="1.16636"
           height="2.91591"
           rx="0.583182"
-          transform="rotate(165 108.953 109.811)"
+          transform="rotate(165 52.9531 53.811)"
           fill="white"
         />
         <rect
-          x="109.607"
-          y="111.248"
+          x="53.6069"
+          y="55.2483"
           width="1.16636"
           height="2.91591"
           rx="0.583182"
-          transform="rotate(105 109.607 111.248)"
+          transform="rotate(105 53.6069 55.2483)"
           fill="white"
         />
         <rect
-          x="111.117"
-          y="111.543"
+          x="55.1167"
+          y="55.5433"
           width="1.16636"
           height="2.91591"
           rx="0.583182"
-          transform="rotate(45 111.117 111.543)"
+          transform="rotate(45 55.1167 55.5433)"
           fill="white"
         />
         <path
-          d="M97.2314 109.937C97.2314 108.051 97.6341 106.187 98.4125 104.469C99.1909 102.751 100.327 101.219 101.745 99.9755C103.163 98.7319 104.83 97.8054 106.635 97.2579C108.44 96.7104 110.341 96.5546 112.211 96.8007C114.081 97.0469 115.877 97.6895 117.478 98.6855C119.08 99.6814 120.451 101.008 121.498 102.576C122.546 104.144 123.247 105.918 123.554 107.779C123.862 109.64 123.768 111.545 123.28 113.367"
-          stroke="url(#paint0_linear_200_1769)"
-          strokeWidth="0.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+          d="M41.2314 53.9374C41.2314 52.1974 41.5742 50.4744 42.24 48.8668C42.9059 47.2593 43.8819 45.7986 45.1123 44.5682C46.3427 43.3378 47.8033 42.3618 49.4109 41.696C51.0185 41.0301 52.7414 40.6874 54.4814 40.6874C56.2215 40.6874 57.9444 41.0301 59.552 41.696C61.1596 42.3619 62.6202 43.3378 63.8506 44.5682C65.081 45.7986 66.057 47.2593 66.7229 48.8668C67.3887 50.4744 67.7314 52.1974 67.7314 53.9374C67.7314 55.6774 67.3887 57.4004 66.7228 59.0079C66.057 60.6155 65.081 62.0762 63.8506 63.3065C62.6202 64.5369 61.1596 65.5129 59.552 66.1788C57.9444 66.8447 56.2215 67.1874 54.4814 67.1874C52.7414 67.1874 51.0185 66.8447 49.4109 66.1788C47.8033 65.5129 46.3427 64.5369 45.1123 63.3065C43.8819 62.0762 42.9059 60.6155 42.24 59.0079C41.5742 57.4004 41.2314 55.6774 41.2314 53.9374L41.2314 53.9374Z"
+          stroke="url(#paint0_linear_200_1773)"
+          stroke-width="0.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          className="animate-clockwise-stroke"
         />
       </g>
       <defs>
         <filter
-          id="filter0_f_200_1769"
-          x="78.4297"
-          y="78.4301"
-          width="63.1401"
-          height="63.1399"
-          filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
-        >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feGaussianBlur
-            stdDeviation="0.5"
-            result="effect1_foregroundBlur_200_1769"
-          />
-        </filter>
-        <filter
-          id="filter1_f_200_1769"
-          x="39.6787"
-          y="39.6788"
-          width="140.643"
-          height="140.643"
-          filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
-        >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feGaussianBlur
-            stdDeviation="2"
-            result="effect1_foregroundBlur_200_1769"
-          />
-        </filter>
-        <filter
-          id="filter2_f_200_1769"
-          x="0"
-          y="0"
-          width="220"
-          height="220"
-          filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
-        >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
-          <feBlend
-            mode="normal"
-            in="SourceGraphic"
-            in2="BackgroundImageFix"
-            result="shape"
-          />
-          <feGaussianBlur
-            stdDeviation="5"
-            result="effect1_foregroundBlur_200_1769"
-          />
-        </filter>
-        <filter
-          id="filter3_dd_200_1769"
-          x="56.9814"
-          y="56.4374"
+          id="filter0_dd_200_1773"
+          x="0.981445"
+          y="0.437378"
           width="107.125"
           height="107.125"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -416,7 +390,7 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           <feBlend
             mode="normal"
             in2="BackgroundImageFix"
-            result="effect1_dropShadow_200_1769"
+            result="effect1_dropShadow_200_1773"
           />
           <feColorMatrix
             in="SourceAlpha"
@@ -433,26 +407,26 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           />
           <feBlend
             mode="normal"
-            in2="effect1_dropShadow_200_1769"
-            result="effect2_dropShadow_200_1769"
+            in2="effect1_dropShadow_200_1773"
+            result="effect2_dropShadow_200_1773"
           />
           <feBlend
             mode="normal"
             in="SourceGraphic"
-            in2="effect2_dropShadow_200_1769"
+            in2="effect2_dropShadow_200_1773"
             result="shape"
           />
         </filter>
         <filter
-          id="filter4_f_200_1769"
-          x="78.5361"
-          y="90.9999"
+          id="filter1_f_200_1773"
+          x="22.5361"
+          y="34.9999"
           width="64"
           height="64"
           filterUnits="userSpaceOnUse"
-          colorInterpolationFilters="sRGB"
+          color-interpolation-filters="sRGB"
         >
-          <feFlood floodOpacity="0" result="BackgroundImageFix" />
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -461,24 +435,24 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           />
           <feGaussianBlur
             stdDeviation="10"
-            result="effect1_foregroundBlur_200_1769"
+            result="effect1_foregroundBlur_200_1773"
           />
         </filter>
         <linearGradient
-          id="paint0_linear_200_1769"
-          x1="123.281"
-          y1="113.5"
-          x2="97.2815"
-          y2="106.5"
+          id="paint0_linear_200_1773"
+          x1="67.2815"
+          y1="57.5"
+          x2="41.2815"
+          y2="50.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
+          <stop stop-color="#16E390" />
+          <stop offset="1" stop-color="#16E390" stop-opacity="0" />
         </linearGradient>
-        <clipPath id="clip0_200_1769">
+        <clipPath id="clip0_200_1773">
           <rect
-            x="96.9814"
-            y="96.4374"
+            x="40.9814"
+            y="40.4374"
             width="27.1253"
             height="27.1252"
             rx="13.5626"
@@ -489,4 +463,5 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
     </svg>
   );
 };
+
 export default RealTimeSentiment;

@@ -142,3 +142,28 @@ body {
 .font-esbuild {
   font-family: "ESBuild";
 }
+
+@keyframes clockwiseStroke {
+  0% {
+    stroke-dashoffset: 105;
+    /* Set to the length of the path */
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-clockwise-stroke {
+  stroke-dasharray: 105;
+  /* Length of your path */
+  stroke-dashoffset: 105;
+  animation: clockwiseStroke 3s linear infinite;
+  animation-delay: 3s
+}
+
+.center-svg {
+
+  width: 170px;
+  height: 170px;
+}
