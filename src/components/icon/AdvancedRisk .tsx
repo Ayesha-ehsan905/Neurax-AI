@@ -9,44 +9,49 @@ const AdvancedRisk: React.FC<SVGProps<SVGSVGElement>> = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path
-        d="M148.653 49.9105H61.544C60.289 49.9105 59.2716 51.1334 59.2716 52.642V104.617C59.2716 104.826 59.1021 104.996 58.8929 104.996C58.6837 104.996 58.5142 104.826 58.5142 104.617V52.642C58.5142 50.6306 59.8707 49 61.544 49H148.653C150.22 49 151.51 50.43 151.667 52.2637C151.685 52.4721 151.514 52.642 151.304 52.642C151.095 52.642 150.928 52.4717 150.904 52.2639C150.751 50.9343 149.802 49.9105 148.653 49.9105Z"
-        fill="#16E390"
-      />
-      <g filter="url(#filter0_f_200_1683)">
+      <g className="animated-outline">
         <path
-          d="M148.653 49.9105H61.544C60.289 49.9105 59.2716 51.1334 59.2716 52.642V104.617C59.2716 104.826 59.1021 104.996 58.8929 104.996C58.6837 104.996 58.5142 104.826 58.5142 104.617V52.642C58.5142 50.6306 59.8707 49 61.544 49H148.653C150.22 49 151.51 50.43 151.667 52.2637C151.685 52.4721 151.514 52.642 151.304 52.642C151.095 52.642 150.928 52.4717 150.904 52.2639C150.751 50.9343 149.802 49.9105 148.653 49.9105Z"
-          fill="#16E390"
+          d="M59 52C59 50.8954 59.8954 50 61 50H149C150.105 50 151 50.8954 151 52V152C151 153.105 150.105 154 149 154H61C59.8954 154 59 153.105 59 152V52Z" // Complete path around the box
+          stroke="#16E390"
+          fill="none"
         />
+        <g filter="url(#filter0_f_200_1683)">
+          <path
+            d="M59 52C59 50.8954 59.8954 50 61 50H149C150.105 50 151 50.8954 151 52V152C151 153.105 150.105 154 149 154H61C59.8954 154 59 153.105 59 152V52Z" // Complete path around the box
+            stroke="#16E390"
+            fill="none"
+          />
+        </g>
+        <g filter="url(#filter1_f_200_1683)">
+          <path
+            d="M59 52C59 50.8954 59.8954 50 61 50H149C150.105 50 151 50.8954 151 52V152C151 153.105 150.105 154 149 154H61C59.8954 154 59 153.105 59 152V52Z" // Complete path around the box
+            stroke="#16E390"
+            fill="none"
+          />
+        </g>
+        <g filter="url(#filter2_f_200_1683)">
+          <path
+            d="M59 52C59 50.8954 59.8954 50 61 50H149C150.105 50 151 50.8954 151 52V152C151 153.105 150.105 154 149 154H61C59.8954 154 59 153.105 59 152V52Z" // Complete path around the box
+            stroke="#16E390"
+            fill="none"
+          />
+        </g>
+        <g filter="url(#filter3_f_200_1683)">
+          <path
+            d="M59 52C59 50.8954 59.8954 50 61 50H149C150.105 50 151 50.8954 151 52V152C151 153.105 150.105 154 149 154H61C59.8954 154 59 153.105 59 152V52Z" // Complete path around the box
+            stroke="#16E390"
+            fill="none"
+          />
+        </g>
+        <g filter="url(#filter4_f_200_1683)">
+          <path
+            d="M59 52C59 50.8954 59.8954 50 61 50H149C150.105 50 151 50.8954 151 52V152C151 153.105 150.105 154 149 154H61C59.8954 154 59 153.105 59 152V52Z" // Complete path around the box
+            stroke="#16E390"
+            fill="none"
+          />
+        </g>
       </g>
-      <g filter="url(#filter1_f_200_1683)">
-        <path
-          d="M148.653 49.9105H61.544C60.289 49.9105 59.2716 51.1334 59.2716 52.642V104.617C59.2716 104.826 59.1021 104.996 58.8929 104.996C58.6837 104.996 58.5142 104.826 58.5142 104.617V52.642C58.5142 50.6306 59.8707 49 61.544 49H148.653C150.22 49 151.51 50.43 151.667 52.2637C151.685 52.4721 151.514 52.642 151.304 52.642C151.095 52.642 150.928 52.4717 150.904 52.2639C150.751 50.9343 149.802 49.9105 148.653 49.9105Z"
-          fill="#16E390"
-        />
-      </g>
-      <g filter="url(#filter2_f_200_1683)">
-        <path
-          d="M148.653 49.9105H61.544C60.289 49.9105 59.2716 51.1334 59.2716 52.642V104.617C59.2716 104.826 59.1021 104.996 58.8929 104.996C58.6837 104.996 58.5142 104.826 58.5142 104.617V52.642C58.5142 50.6306 59.8707 49 61.544 49H148.653C150.22 49 151.51 50.43 151.667 52.2637C151.685 52.4721 151.514 52.642 151.304 52.642C151.095 52.642 150.928 52.4717 150.904 52.2639C150.751 50.9343 149.802 49.9105 148.653 49.9105Z"
-          fill="#16E390"
-        />
-      </g>
-      <g filter="url(#filter3_f_200_1683)">
-        <path
-          d="M148.653 49.9105H61.544C60.289 49.9105 59.2716 51.1334 59.2716 52.642V104.617C59.2716 104.826 59.1021 104.996 58.8929 104.996C58.6837 104.996 58.5142 104.826 58.5142 104.617V52.642C58.5142 50.6306 59.8707 49 61.544 49H148.653C150.22 49 151.51 50.43 151.667 52.2637C151.685 52.4721 151.514 52.642 151.304 52.642C151.095 52.642 150.928 52.4717 150.904 52.2639C150.751 50.9343 149.802 49.9105 148.653 49.9105Z"
-          fill="#16E390"
-        />
-      </g>
-      <g filter="url(#filter4_f_200_1683)">
-        <path
-          d="M148.653 49.9105H61.544C60.289 49.9105 59.2716 51.1334 59.2716 52.642V104.617C59.2716 104.826 59.1021 104.996 58.8929 104.996C58.6837 104.996 58.5142 104.826 58.5142 104.617V52.642C58.5142 50.6306 59.8707 49 61.544 49H148.653C150.22 49 151.51 50.43 151.667 52.2637C151.685 52.4721 151.514 52.642 151.304 52.642C151.095 52.642 150.928 52.4717 150.904 52.2639C150.751 50.9343 149.802 49.9105 148.653 49.9105Z"
-          fill="#16E390"
-        />
-      </g>
-      <path
-        d="M59.2534 25.5759C59.2534 24.4714 60.1488 23.5759 61.2534 23.5759H109.753C110.858 23.5759 111.753 24.4714 111.753 25.5759V40.2411C111.753 41.3457 110.858 42.2411 109.753 42.2411H61.2534C60.1488 42.2411 59.2534 41.3457 59.2534 40.2411V25.5759Z"
-        fill="url(#paint0_radial_200_1683)"
-      />
+
       <path
         d="M59 52C59 50.8954 59.8954 50 61 50H149C150.105 50 151 50.8954 151 52V152C151 153.105 150.105 154 149 154H61C59.8954 154 59 153.105 59 152V52Z"
         fill="url(#paint1_radial_200_1683)"
@@ -544,10 +549,10 @@ const AdvancedRisk: React.FC<SVGProps<SVGSVGElement>> = () => {
       <defs>
         <filter
           id="filter0_f_200_1683"
-          x="50.5142"
-          y="41"
-          width="109.154"
-          height="71.9955"
+          x="50"
+          y="40"
+          width="115"
+          height="120"
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
@@ -567,8 +572,8 @@ const AdvancedRisk: React.FC<SVGProps<SVGSVGElement>> = () => {
           id="filter1_f_200_1683"
           x="50.5142"
           y="41"
-          width="109.154"
-          height="71.9955"
+          width="115"
+          height="120"
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
@@ -588,8 +593,8 @@ const AdvancedRisk: React.FC<SVGProps<SVGSVGElement>> = () => {
           id="filter2_f_200_1683"
           x="50.5142"
           y="41"
-          width="109.154"
-          height="71.9955"
+          width="115"
+          height="120"
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
@@ -609,8 +614,8 @@ const AdvancedRisk: React.FC<SVGProps<SVGSVGElement>> = () => {
           id="filter3_f_200_1683"
           x="50.5142"
           y="41"
-          width="109.154"
-          height="71.9955"
+          width="115"
+          height="120"
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
@@ -630,8 +635,8 @@ const AdvancedRisk: React.FC<SVGProps<SVGSVGElement>> = () => {
           id="filter4_f_200_1683"
           x="50.5142"
           y="41"
-          width="109.154"
-          height="71.9955"
+          width="115"
+          height="120"
           filterUnits="userSpaceOnUse"
           colorInterpolationFilters="sRGB"
         >
@@ -802,6 +807,28 @@ const AdvancedRisk: React.FC<SVGProps<SVGSVGElement>> = () => {
           <stop offset="1" stopColor="#1B1D22" />
         </radialGradient>
       </defs>
+      <style>
+        {`
+          .animated-outline {
+            stroke-width: 1;  /* Thicker green line */
+            stroke-dasharray: 50, 350; /* Only a 50px dash with 450px gap */
+            stroke-dashoffset: 0; /* Start from the beginning of the path */
+            stroke-linecap: round;  /* Smooth line ends */
+            stroke-linejoin: round; /* Smooth corners */
+            animation: dash 5s linear infinite; /* Animate in a continuous loop */
+          }
+
+          /* Keyframes for animating the stroke-dashoffset */
+          @keyframes dash {
+            0% {
+              stroke-dashoffset: 0; /* Start from the beginning */
+            }
+            100% {
+              stroke-dashoffset: -400; /* Move left and loop back */
+            }
+          }
+        `}
+      </style>
     </svg>
   );
 };

@@ -16,7 +16,7 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
         r="100" // Increased radius of the circle
         fill="none"
         stroke="#16E390"
-        stroke-width="2"
+        strokeWidth="2"
       >
         <animate
           attributeName="r"
@@ -41,7 +41,7 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
         r="100" // Increased radius of the circle
         fill="none"
         stroke="#16E390"
-        stroke-width="2"
+        strokeWidth="2"
       >
         <animate
           attributeName="r"
@@ -71,7 +71,7 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           shapeRendering="crispEdges"
         />
       </g>
-      <g clip-path="url(#clip0_200_1773)">
+      <g clipPath="url(#clip0_200_1773)">
         <rect
           x="40.9814"
           y="40.4374"
@@ -357,9 +357,9 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
         <path
           d="M41.2314 53.9374C41.2314 52.1974 41.5742 50.4744 42.24 48.8668C42.9059 47.2593 43.8819 45.7986 45.1123 44.5682C46.3427 43.3378 47.8033 42.3618 49.4109 41.696C51.0185 41.0301 52.7414 40.6874 54.4814 40.6874C56.2215 40.6874 57.9444 41.0301 59.552 41.696C61.1596 42.3619 62.6202 43.3378 63.8506 44.5682C65.081 45.7986 66.057 47.2593 66.7229 48.8668C67.3887 50.4744 67.7314 52.1974 67.7314 53.9374C67.7314 55.6774 67.3887 57.4004 66.7228 59.0079C66.057 60.6155 65.081 62.0762 63.8506 63.3065C62.6202 64.5369 61.1596 65.5129 59.552 66.1788C57.9444 66.8447 56.2215 67.1874 54.4814 67.1874C52.7414 67.1874 51.0185 66.8447 49.4109 66.1788C47.8033 65.5129 46.3427 64.5369 45.1123 63.3065C43.8819 62.0762 42.9059 60.6155 42.24 59.0079C41.5742 57.4004 41.2314 55.6774 41.2314 53.9374L41.2314 53.9374Z"
           stroke="url(#paint0_linear_200_1773)"
-          stroke-width="0.5"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="animate-clockwise-stroke"
         />
       </g>
@@ -371,9 +371,9 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           width="107.125"
           height="107.125"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -424,9 +424,9 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           width="64"
           height="64"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feBlend
             mode="normal"
             in="SourceGraphic"
@@ -446,8 +446,8 @@ const RealTimeSentiment: React.FC<SVGProps<SVGSVGElement>> = () => {
           y2="50.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#16E390" />
-          <stop offset="1" stop-color="#16E390" stop-opacity="0" />
+          <stop stopColor="#16E390" />
+          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
         </linearGradient>
         <clipPath id="clip0_200_1773">
           <rect
