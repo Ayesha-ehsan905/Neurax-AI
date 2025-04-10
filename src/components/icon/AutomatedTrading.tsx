@@ -9,126 +9,166 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path
-        d="M42.938 66.8074C48.345 78.1407 64.6932 100.807 86.83 100.807"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M42.938 66.8074C48.345 78.1407 64.6932 100.807 86.83 100.807"
-        stroke="url(#paint0_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M42.938 134.807C48.345 123.474 64.6932 100.807 86.83 100.807"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M42.938 134.807C48.345 123.474 64.6932 100.807 86.83 100.807"
-        stroke="url(#paint1_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M166.98 66.8074C161.573 78.1407 145.225 100.807 123.088 100.807"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M166.98 66.8074C161.573 78.1407 145.225 100.807 123.088 100.807"
-        stroke="url(#paint2_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M166.98 134.807C161.573 123.474 145.225 100.807 123.088 100.807"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M166.98 134.807C161.573 123.474 145.225 100.807 123.088 100.807"
-        stroke="url(#paint3_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M80.6279 27.3074C80.6279 45.2885 80.628 74.2086 89.3262 89.6999"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M80.6279 27.3074C80.6279 45.2885 80.628 74.2086 89.3262 89.6999"
-        stroke="url(#paint4_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M129.879 27.3074C129.879 45.2885 129.879 74.2086 121.181 89.6999"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M129.879 27.3074C129.879 45.2885 129.879 74.2086 121.181 89.6999"
-        stroke="url(#paint5_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M80.6279 170.2C80.6279 152.219 80.628 123.299 89.3262 107.807"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M80.6279 170.2C80.6279 152.219 80.628 123.299 89.3262 107.807"
-        stroke="url(#paint6_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M129.879 170.2C129.879 152.219 129.879 123.299 121.181 107.807"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M129.879 170.2C129.879 152.219 129.879 123.299 121.181 107.807"
-        stroke="url(#paint7_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M86.3526 100.807H27.6709"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M86.3526 100.807H27.6709"
-        stroke="url(#paint8_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M123.089 100.807H181.771"
-        stroke="#303030"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
-      <path
-        d="M123.089 100.807H181.771"
-        stroke="url(#paint9_linear_200_1609)"
-        strokeWidth="0.5"
-        strokeLinecap="round"
-      />
+      <g>
+        <path
+          d="M42.938 66.8074C48.345 78.1407 64.6932 100.807 86.83 100.807"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M42.938 66.8074C48.345 78.1407 64.6932 100.807 86.83 100.807"
+          stroke="url(#paint0_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+      <g>
+        <path
+          d="M42.938 134.807C48.345 123.474 64.6932 100.807 86.83 100.807"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M42.938 134.807C48.345 123.474 64.6932 100.807 86.83 100.807"
+          stroke="url(#paint1_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+      <g>
+        <path
+          d="M166.98 66.8074C161.573 78.1407 145.225 100.807 123.088 100.807"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M166.98 66.8074C161.573 78.1407 145.225 100.807 123.088 100.807"
+          stroke="url(#paint2_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+      <g>
+        <path
+          d="M166.98 134.807C161.573 123.474 145.225 100.807 123.088 100.807"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M166.98 134.807C161.573 123.474 145.225 100.807 123.088 100.807"
+          stroke="url(#paint3_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+      <g>
+        <path
+          d="M80.6279 27.3074C80.6279 45.2885 80.628 74.2086 89.3262 89.6999"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M80.6279 27.3074C80.6279 45.2885 80.628 74.2086 89.3262 89.6999"
+          stroke="url(#paint4_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+      <g>
+        <path
+          d="M129.879 27.3074C129.879 45.2885 129.879 74.2086 121.181 89.6999"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M129.879 27.3074C129.879 45.2885 129.879 74.2086 121.181 89.6999"
+          stroke="url(#paint5_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={1}
+        />
+      </g>
+      <g>
+        <path
+          d="M80.6279 170.2C80.6279 152.219 80.628 123.299 89.3262 107.807"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M80.6279 170.2C80.6279 152.219 80.628 123.299 89.3262 107.807"
+          stroke="url(#paint6_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={"1"}
+        />
+      </g>
+      <g>
+        <path
+          d="M129.879 170.2C129.879 152.219 129.879 123.299 121.181 107.807"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M129.879 170.2C129.879 152.219 129.879 123.299 121.181 107.807"
+          stroke="url(#paint7_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={"1"}
+        />
+      </g>
+      <g>
+        <path
+          d="M86.3526 100.807H27.6709"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M86.3526 100.807H27.6709"
+          stroke="url(#paint8_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={"1"}
+        />
+      </g>
+      <g>
+        <path
+          d="M123.089 100.807H181.771"
+          stroke="#303030"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={0.04}
+        />
+        <path
+          d="M123.089 100.807H181.771"
+          stroke="url(#paint9_linear_200_1609)"
+          strokeWidth="0.5"
+          strokeLinecap="round"
+          fillOpacity={"1"}
+        />
+      </g>
       <rect
         x="-0.5"
         y="-0.5"
@@ -405,7 +445,7 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
         transform="matrix(-4.37114e-08 1 1 4.37114e-08 66.4517 2.18557e-08)"
         stroke="url(#paint19_linear_200_1609)"
       />
-      <g filter="url(#filter0_dd_200_1609)">
+      <g filter="url(#filter0_dd_200_1609)" className="animate-pulse">
         <ellipse
           cx="105.16"
           cy="100.291"
@@ -778,126 +818,286 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             result="effect1_foregroundBlur_200_1609"
           />
         </filter>
-        <linearGradient
-          id="paint0_linear_200_1609"
-          x1="50.0749"
-          y1="66.8074"
-          x2="63.9919"
-          y2="66.8074"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint1_linear_200_1609"
-          x1="50.0749"
-          y1="134.807"
-          x2="63.9919"
-          y2="134.807"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint2_linear_200_1609"
-          x1="159.844"
-          y1="66.8074"
-          x2="145.927"
-          y2="66.8074"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint3_linear_200_1609"
-          x1="159.844"
-          y1="134.807"
-          x2="145.927"
-          y2="134.807"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint4_linear_200_1609"
-          x1="82.0423"
-          y1="27.3074"
-          x2="84.8003"
-          y2="27.3074"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint5_linear_200_1609"
-          x1="128.465"
-          y1="27.3074"
-          x2="125.707"
-          y2="27.3074"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint6_linear_200_1609"
-          x1="82.0423"
-          y1="170.2"
-          x2="84.8003"
-          y2="170.2"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint7_linear_200_1609"
-          x1="128.465"
-          y1="170.2"
-          x2="125.707"
-          y2="170.2"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint8_linear_200_1609"
-          x1="37.2126"
-          y1="100.807"
-          x2="55.8191"
-          y2="100.807"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
-        <linearGradient
-          id="paint9_linear_200_1609"
-          x1="172.229"
-          y1="100.807"
-          x2="153.622"
-          y2="100.807"
-          gradientUnits="userSpaceOnUse"
-        >
-          <stop stopColor="#16E390" stopOpacity="0" />
-          <stop offset="0.625" stopColor="#16E390" />
-          <stop offset="1" stopColor="#16E390" stopOpacity="0" />
-        </linearGradient>
+        <defs>
+          <linearGradient
+            id="paint0_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+
+            <animate
+              attributeName="y1"
+              values="100%;0%"
+              dur="4s"
+              begin={"2s"}
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="y2"
+              values="100%;-30%"
+              dur="4s"
+              begin={"2s"}
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+
+        <defs>
+          <linearGradient
+            id="paint1_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+
+            <animate
+              attributeName="y1"
+              values="0%;90%"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+
+            <animate
+              attributeName="y2"
+              values="30%;100%"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+        <defs>
+          <linearGradient
+            id="paint2_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+
+            <animate
+              attributeName="y1"
+              values="100%;10%"
+              dur="4s"
+              begin={"2s"}
+              repeatCount="indefinite"
+            />
+
+            <animate
+              attributeName="y2"
+              values="70%;0%"
+              dur="4s"
+              begin={"2s"}
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+        <defs>
+          <linearGradient
+            id="paint3_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+            <animate
+              attributeName="y1"
+              values="0%;90%"
+              dur="4s"
+              repeatCount="indefinite"
+            />
+
+            <animate
+              attributeName="y2"
+              values="30%;100%"
+              dur="4s"
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+        <defs>
+          <linearGradient
+            id="paint4_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+            <animate
+              attributeName="y1"
+              values="100%;10%"
+              begin="1s"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+
+            <animate
+              attributeName="y2"
+              values="70%;0%"
+              begin="1s"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+        <defs>
+          <linearGradient
+            id="paint5_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+            <animate
+              attributeName="y1"
+              values="100%;10%"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+
+            <animate
+              attributeName="y2"
+              values="70%;0%"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+        <defs>
+          <linearGradient
+            id="paint6_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+            <animate
+              attributeName="y1"
+              values="0%;90%"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+
+            <animate
+              attributeName="y2"
+              values="30%;100%"
+              dur="3s"
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+        <defs>
+          <linearGradient
+            id="paint7_linear_200_1609"
+            x1="0%"
+            x2="0%"
+            y1="0%"
+            y2="100%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#303030" />
+            <stop offset="0.424" stop-color="#16E390" />
+            <stop offset="0.625" stop-color="#303030" />
+            <animate
+              attributeName="y1"
+              values="0%;90%"
+              dur="3s"
+              begin={"1s"}
+              repeatCount="indefinite"
+            />
+
+            <animate
+              attributeName="y2"
+              values="30%;100%"
+              dur="3s"
+              begin={"1s"}
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+        <defs>
+          <linearGradient
+            id="paint8_linear_200_1609"
+            x1="0%"
+            x2="100%"
+            y1="0%"
+            y2="0%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stopColor="#303030" stopOpacity="0" />
+            <stop stopColor="#16E390" />
+            <stop offset="7%" stopColor="#303030" stopOpacity="0" />
+            <animate
+              attributeName="x1"
+              values="100%;0%;" // Move from 0 to 100 and back to 0
+              dur="6s" // Duration of the animation
+              repeatCount="indefinite" // Make the animation loop infinitely
+            />
+            <animate
+              attributeName="x2"
+              values="100%;200%;100%" // Same for x2
+              dur="6s"
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
+
+        <defs>
+          <linearGradient
+            id="paint9_linear_200_1609"
+            x1="0%"
+            x2="100%"
+            y1="0%"
+            y2="0%"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stopColor="#303030" stopOpacity="0" />
+            <stop stopColor="#16E390" />
+            <stop offset="7%" stopColor="#303030" stopOpacity="0" />
+            <animate
+              attributeName="x1"
+              values="0%;100%;" // Move from 0 to 100 and back to 0
+              dur="4s" // Duration of the animation
+              repeatCount="indefinite" // Make the animation loop infinitely
+            />
+            <animate
+              attributeName="x2"
+              values="100%;200%;100%" // Same for x2
+              dur="4s"
+              repeatCount="indefinite"
+            />
+          </linearGradient>
+        </defs>
         <linearGradient
           id="paint10_linear_200_1609"
           x1="18.735"
