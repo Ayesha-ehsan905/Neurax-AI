@@ -13,7 +13,7 @@ const OurJourney = () => {
           Our Journey
         </span>
         <span className="text-[16px] font-normal leading-[120%]">
-          Lorem ipsum orem ipsum dolor sit amet uing
+          Milestones that shape NeuraX into the ultimate trading companion.
         </span>
       </div>
       <div>
@@ -30,7 +30,7 @@ const HorizontalScrollCarousel = () => {
     offset: ["start start", "end end"],
   });
 
-  const cardWidth = 280; // Fixed card width
+  const cardWidth = 350; // Fixed card width
   const gap = 165; // Space between cards
   const totalWidth = OUR_JOURNEY.length * (cardWidth + gap);
   const viewportWidth = typeof window !== "undefined" ? window.innerWidth : 0;
@@ -58,7 +58,7 @@ const HorizontalScrollCarousel = () => {
               >
                 <div
                   className={`flex items-center gap-2 ${
-                    card.id == 6 ? "ml-[80px] sm:ml-0" : ""
+                    card.id == 10 ? "ml-[100px] sm:ml-0" : ""
                   }`}
                 >
                   <BulletIcon />
@@ -86,7 +86,7 @@ const HorizontalScrollCarousel = () => {
         {/* Horizontal Scrolling Cards */}
         <motion.div
           style={{ x, top: "calc(22% + 40px)" }}
-          className="flex gap-[165px] lg:gap-[120px] px-6 absolute "
+          className="flex gap-[150px] lg:gap-[150px] px-6 absolute "
         >
           {OUR_JOURNEY.map((card, index) => (
             <Card
@@ -94,7 +94,7 @@ const HorizontalScrollCarousel = () => {
               card={card}
               cardWidth={cardWidth}
               isFirst={index == 0}
-              isLast={index == 5}
+              isLast={index == 9}
             />
           ))}
         </motion.div>
@@ -115,12 +115,11 @@ const Card = ({
   isFirst: boolean;
   isLast: boolean;
 }) => {
-  console.log(isLast);
   return (
     <div
       className={`group relative overflow-hidden bg-blackDarker text-white rounded-xl shadow-lg border border-darkCharcoal  ${
         isFirst ? "2xl:ml-[120px] md:ml-[80px]" : ""
-      } ${isLast ? "ml-[80px] " : ""}`}
+      } ${isLast ? "ml-[250px] md:ml-[20px]" : ""}`}
       style={{
         width: `${cardWidth}px`,
       }}
@@ -130,9 +129,9 @@ const Card = ({
         <h3 className="text-[20px] font-normal font-esbuild text-white leading-[100%]">
           {card.title}
         </h3>
-        <ul className="list-disc ml-5 pl-2">
+        <ul className="list-disc ml-5 pl-2 flex flex-col justify-end h-full">
           {card.items.map((item: string, index: number) => (
-            <li key={index} className="text-[14px] font-normal leading-[140%]">
+            <li key={index} className="text-[14px] font-normal leading-[180%]">
               {item}
             </li>
           ))}

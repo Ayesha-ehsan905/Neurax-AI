@@ -827,9 +827,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
 
             <animate
               attributeName="y1"
@@ -857,9 +857,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
 
             <animate
               attributeName="y1"
@@ -885,9 +885,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
 
             <animate
               attributeName="y1"
@@ -915,9 +915,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
             <animate
               attributeName="y1"
               values="0%;90%"
@@ -942,9 +942,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
             <animate
               attributeName="y1"
               values="100%;10%"
@@ -971,9 +971,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
             <animate
               attributeName="y1"
               values="100%;10%"
@@ -998,9 +998,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
             <animate
               attributeName="y1"
               values="0%;90%"
@@ -1025,9 +1025,9 @@ const AutomatedTrading: React.FC<SVGProps<SVGSVGElement>> = () => {
             y2="100%"
             gradientUnits="userSpaceOnUse"
           >
-            <stop offset="0" stop-color="#303030" />
-            <stop offset="0.424" stop-color="#16E390" />
-            <stop offset="0.625" stop-color="#303030" />
+            <stop offset="0" stopColor="#303030" />
+            <stop offset="0.424" stopColor="#16E390" />
+            <stop offset="0.625" stopColor="#303030" />
             <animate
               attributeName="y1"
               values="0%;90%"
